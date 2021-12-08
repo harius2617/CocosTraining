@@ -1,0 +1,154 @@
+2021-12-08T07:16:10.723Z - normal: Load ~/.CocosCreator/settings.json
+2021-12-08T07:16:10.757Z - normal: Initializing Asset Database
+2021-12-08T07:16:10.759Z - normal: checking language setting...
+2021-12-08T07:16:10.759Z - normal: Language: en
+2021-12-08T07:16:11.188Z - success: preview server running at http://localhost:7456
+2021-12-08T07:16:11.200Z - success: protocol editor-framework registered
+2021-12-08T07:16:11.200Z - success: protocol app registered
+2021-12-08T07:16:11.200Z - success: protocol theme registered
+2021-12-08T07:16:11.200Z - success: protocol packages registered
+2021-12-08T07:16:11.201Z - success: protocol uuid registerred
+2021-12-08T07:16:11.201Z - success: protocol db registerred
+2021-12-08T07:16:11.201Z - success: protocol thumbnail registerred
+2021-12-08T07:16:11.201Z - success: protocol unpack registerred
+2021-12-08T07:16:11.201Z - success: protocol disable-commonjs registerred
+2021-12-08T07:16:12.349Z - normal: connected!
+2021-12-08T07:16:12.350Z - normal: Check project /Users/fe-danghai-fresher/Desktop/FormSignUp
+2021-12-08T07:16:12.352Z - normal: Initializing project /Users/fe-danghai-fresher/Desktop/FormSignUp
+2021-12-08T07:16:12.590Z - normal: Initializing Cocos2d
+2021-12-08T07:16:12.976Z - normal: Initializing engine extends
+2021-12-08T07:16:12.990Z - success: alipay-adapter loaded
+2021-12-08T07:16:12.997Z - success: asset-db-debugger loaded
+2021-12-08T07:16:13.001Z - success: baidu-adapter loaded
+2021-12-08T07:16:13.004Z - success: color-picker loaded
+2021-12-08T07:16:13.091Z - success: fb-audience-network loaded
+2021-12-08T07:16:13.144Z - success: fb-live-stream loaded
+2021-12-08T07:16:13.147Z - success: google-play-instant loaded
+2021-12-08T07:16:13.150Z - success: huawei-runtime loaded
+2021-12-08T07:16:13.283Z - success: cpk-publish loaded
+2021-12-08T07:16:13.283Z - success: jsb-adapter loaded
+2021-12-08T07:16:13.286Z - success: oppo-runtime loaded
+2021-12-08T07:16:13.289Z - success: package-manager loaded
+2021-12-08T07:16:13.356Z - success: qqplay-adapter loaded
+2021-12-08T07:16:13.358Z - success: runtime-dev-tools loaded
+2021-12-08T07:16:13.361Z - success: sdkbox loaded
+2021-12-08T07:16:13.363Z - success: tester loaded
+2021-12-08T07:16:13.365Z - success: ui-kit-preview-extra loaded
+2021-12-08T07:16:13.367Z - success: ui-kit-preview loaded
+2021-12-08T07:16:13.369Z - success: ui-kit loaded
+2021-12-08T07:16:13.372Z - success: vivo-runtime loaded
+2021-12-08T07:16:13.372Z - success: weapp-adapter loaded
+2021-12-08T07:16:13.373Z - success: xiaomi-adapter loaded
+2021-12-08T07:16:13.375Z - success: alipay-minigame loaded
+2021-12-08T07:16:13.403Z - success: assets loaded
+2021-12-08T07:16:13.405Z - success: builder loaded
+2021-12-08T07:16:13.558Z - success: cocos-services loaded
+2021-12-08T07:16:13.562Z - success: console loaded
+2021-12-08T07:16:13.584Z - success: fb-instant-games loaded
+2021-12-08T07:16:13.586Z - success: game-window loaded
+2021-12-08T07:16:13.587Z - success: google-instant-games loaded
+2021-12-08T07:16:13.591Z - success: hierarchy loaded
+2021-12-08T07:16:13.594Z - success: inspector loaded
+2021-12-08T07:16:13.595Z - success: keystore loaded
+2021-12-08T07:16:13.598Z - success: node-library loaded
+2021-12-08T07:16:13.600Z - success: package-asset loaded
+2021-12-08T07:16:13.601Z - success: preferences loaded
+2021-12-08T07:16:13.603Z - success: project-exporter loaded
+2021-12-08T07:16:13.606Z - success: project-importer loaded
+2021-12-08T07:16:13.609Z - success: project-settings loaded
+2021-12-08T07:16:13.612Z - success: scene loaded
+2021-12-08T07:16:13.613Z - success: simulator-debugger loaded
+2021-12-08T07:16:13.614Z - success: sprite-editor loaded
+2021-12-08T07:16:13.617Z - success: store loaded
+2021-12-08T07:16:13.622Z - success: timeline loaded
+2021-12-08T07:16:13.624Z - success: xiaomi-runtime loaded
+2021-12-08T07:16:14.220Z - normal: Loading packages
+2021-12-08T07:16:14.224Z - normal: Watching packages
+2021-12-08T07:16:14.292Z - normal: Run Application
+2021-12-08T07:16:16.180Z - info: Cocos Services load base data!
+2021-12-08T07:16:42.948Z - normal: Start building with options : {
+  "actualPlatform": "web-desktop",
+  "android-instant": {
+    "REMOTE_SERVER_ROOT": "",
+    "host": "",
+    "pathPattern": "",
+    "recordPath": "",
+    "scheme": "https",
+    "skipRecord": false
+  },
+  "apiLevel": "",
+  "appABIs": [],
+  "appBundle": false,
+  "baidugame": {
+    "REMOTE_SERVER_ROOT": "",
+    "appid": "testappid",
+    "orientation": "portrait",
+    "subContext": ""
+  },
+  "buildPath": "/Users/fe-danghai-fresher/Desktop/FormSignUp/build",
+  "debug": false,
+  "dest": "/Users/fe-danghai-fresher/Desktop/FormSignUp/build/web-desktop",
+  "embedWebDebugger": false,
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [],
+  "fb-instant-games": {},
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "md5Cache": false,
+  "mergeStartScene": false,
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.helloworld",
+  "platform": "web-desktop",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "qqplay": {
+    "REMOTE_SERVER_ROOT": "",
+    "orientation": "portrait",
+    "zip": false
+  },
+  "scenes": [
+    "2d2f792f-a40c-49bb-a189-ed176a246e49"
+  ],
+  "sourceMaps": false,
+  "startScene": "2d2f792f-a40c-49bb-a189-ed176a246e49",
+  "template": "link",
+  "title": "FormSignIn",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "wechatgame": {
+    "REMOTE_SERVER_ROOT": "",
+    "appid": "wx6ac3f5090a6b99c5",
+    "orientation": "portrait",
+    "separate_engine": false,
+    "subContext": ""
+  },
+  "xxteaKey": "0602c2fd-8690-49",
+  "zipCompressJs": true,
+  "project": "/Users/fe-danghai-fresher/Desktop/FormSignUp",
+  "projectName": "FormSignIn",
+  "debugBuildWorker": false
+}
+2021-12-08T07:16:42.951Z - normal: Building /Users/fe-danghai-fresher/Desktop/FormSignUp
+2021-12-08T07:16:42.951Z - normal: Destination /Users/fe-danghai-fresher/Desktop/FormSignUp/build/web-desktop
+2021-12-08T07:16:43.042Z - normal: Delete /Users/fe-danghai-fresher/Desktop/FormSignUp/build/web-desktop/subpackages/**/*,/Users/fe-danghai-fresher/Desktop/FormSignUp/build/web-desktop/**/*
+2021-12-08T07:16:44.223Z - normal: Start building assets
+2021-12-08T07:16:44.223Z - normal: Start spawn build-worker
+2021-12-08T07:16:44.757Z - normal: Finish spawn build-worker
+2021-12-08T07:16:44.757Z - normal: Start init build-worker
+2021-12-08T07:16:46.657Z - normal: Finish init build-worker
+2021-12-08T07:16:46.657Z - normal: Start build-assets in worker
+2021-12-08T07:16:46.900Z - normal: Finish build-assets in worker
+2021-12-08T07:16:46.903Z - normal: Finish building assets
+2021-12-08T07:16:46.916Z - normal: Start building plugin scripts
+2021-12-08T07:16:46.969Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2021-12-08T07:16:46.977Z - normal: Generating html from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/web-desktop/template/index.html
+2021-12-08T07:16:46.990Z - normal: Built to "/Users/fe-danghai-fresher/Desktop/FormSignUp/build/web-desktop" successfully
