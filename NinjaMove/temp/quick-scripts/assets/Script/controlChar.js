@@ -83,16 +83,17 @@ cc.Class({
             if (this.isJump) {
                 if (this.distan <= 100) {
                     this.node.y += 2;
-                    if (this.node.y >= 50) {
-                        this.node.angle += 4.3;
+                    if (this.node.y >= 80) {
+                        this.node.angle += 4.7;
                     }
                 } else if (this.distan > 100 && this.distan < 200) {
-                    this.node.y -= 1;
+                    this.node.y -= 2;
                     this.node.angle = 0;
                 } else if (this.distan == 200) {
                     this.distan = 0;
                     this.isJump = false;
                     this.resetBtn();
+                    this.reset();
                 }
             }
         }
