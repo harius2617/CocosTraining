@@ -425,8 +425,8 @@
     "relativePath": "Scene"
   },
   "2d2f792f-a40c-49bb-a189-ed176a246e49": {
-    "asset": 1639110845508,
-    "meta": 1639110845516,
+    "asset": 1639111421199,
+    "meta": 1639111421209,
     "relativePath": "Scene/bai1.fire"
   },
   "4734c20c-0db8-4eb2-92ea-e692f4d70934": {
@@ -469,14 +469,14 @@
     "meta": 1639042424229,
     "relativePath": "Script/button.js"
   },
-  "bd541efd-a0d3-4a1e-97fd-8281d74fd959": {
-    "asset": 1639110681068,
-    "meta": 1639110683441,
-    "relativePath": "Script/controlChar.js"
-  },
   "8f8fed10-c428-4548-86ac-d8967fda978f": {
     "asset": 1639110749131,
     "meta": 1639110776483,
     "relativePath": "Script/keyboard.js"
+  },
+  "bd541efd-a0d3-4a1e-97fd-8281d74fd959": {
+    "asset": 1639112155317,
+    "meta": 1639112159157,
+    "relativePath": "Script/controlChar.js"
   }
 }

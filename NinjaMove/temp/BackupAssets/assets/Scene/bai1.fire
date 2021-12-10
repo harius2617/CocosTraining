@@ -473,7 +473,6 @@
     "isRight": false,
     "isLeft": false,
     "isJump": false,
-    "isReset": false,
     "distan": 0,
     "firstPos": null,
     "btnReset": {

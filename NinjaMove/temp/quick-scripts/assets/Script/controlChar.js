@@ -11,7 +11,6 @@ cc.Class({
         isRight: false,
         isLeft: false,
         isJump: false,
-        isReset: false,
         distan: 0,
         firstPos: null,
         btnReset: cc.Button,
@@ -46,7 +45,6 @@ cc.Class({
         this.btnLeft.interactable = false;
     },
     reset: function reset() {
-        this.isReset = true;
         this.node.position = this.firstPos;
     },
     resetBtn: function resetBtn() {
@@ -89,7 +87,7 @@ cc.Class({
                     this.node.angle = 0;
                 } else if (this.distan == 200) {
                     this.distan = 0;
-                    this.node.position = this.firstPos;
+                    this.node.y = this.firstPos.y;
                     this.isJump = false;
                     this.resetBtn();
                 }
