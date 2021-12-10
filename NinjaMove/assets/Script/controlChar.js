@@ -21,24 +21,30 @@ cc.Class({
         Emitter.instance.registerOnce("RESET", this.reset.bind(this));
     },
     moveRight() {
-        this.isRight = true;
-        this.btnJump.interactable = false;
-        this.btnReset.interactable = false;
-        this.btnLeft.interactable = false;
+        let action = cc.moveTo(1, 200, 50);
+        this.node.runAction(action);
+        // this.isRight = true;
+        // this.btnJump.interactable = false;
+        // this.btnReset.interactable = false;
+        // this.btnLeft.interactable = false;
     },
 
     moveLeft() {
-        this.isLeft = true;
-        this.btnJump.interactable = false;
-        this.btnRight.interactable = false;
-        this.btnReset.interactable = false;
+        let action = cc.moveTo(1, -200, 50)
+        this.node.runAction(action);
+        // this.isLeft = true;
+        // this.btnJump.interactable = false;
+        // this.btnRight.interactable = false;
+        // this.btnReset.interactable = false;
     },
 
     jump() {
-        this.isJump = true;
-        this.btnReset.interactable = false;
-        this.btnRight.interactable = false;
-        this.btnLeft.interactable = false;
+        let action = cc.moveTo(1, this.node.x, 100)
+        this.node.runAction(action);
+        // this.isJump = true;
+        // this.btnReset.interactable = false;
+        // this.btnRight.interactable = false;
+        // this.btnLeft.interactable = false;
     },
 
     reset() {
@@ -53,44 +59,44 @@ cc.Class({
     },
 
     update(dt) {
-        if (this.isJump || this.isLeft || this.isRight) {
-            this.distan++;
-            if (this.isRight) {
-                this.node.scaleX = -1
-                this.node.x += 3;
-                if (this.distan == 100) {
-                    this.isRight = false;
-                    this.distan = 0;
-                    this.resetBtn();
-                }
-            }
+    //     if (this.isJump || this.isLeft || this.isRight) {
+    //         this.distan++;
+    //         if (this.isRight) {
+    //             this.node.scaleX = -1
+    //             this.node.x += 3;
+    //             if (this.distan == 100) {
+    //                 this.isRight = false;
+    //                 this.distan = 0;
+    //                 this.resetBtn();
+    //             }
+    //         }
 
-            if (this.isLeft) {
-                this.node.scaleX = 1
-                this.node.x -= 3;
-                if (this.distan == 100) {
-                    this.isLeft = false;
-                    this.distan = 0;
-                    this.resetBtn();
-                }
-            }
+    //         if (this.isLeft) {
+    //             this.node.scaleX = 1
+    //             this.node.x -= 3;
+    //             if (this.distan == 100) {
+    //                 this.isLeft = false;
+    //                 this.distan = 0;
+    //                 this.resetBtn();
+    //             }
+    //         }
 
-            if (this.isJump) {
-                if (this.distan <= 100) {
-                    this.node.y += 2;
-                    if (this.node.y >= 80) {
-                        this.node.angle += 4.7;
-                    }
-                } else if (this.distan > 100 && this.distan < 200) {
-                    this.node.y -= 2;
-                    this.node.angle = 0;
-                } else if (this.distan == 200) {
-                    this.distan = 0;
-                    this.node.y = this.firstPos.y;
-                    this.isJump = false;
-                    this.resetBtn();
-                }
-            }
-        }
+    //         if (this.isJump) {
+    //             if (this.distan <= 100) {
+    //                 this.node.y += 2;
+    //                 if (this.node.y >= 80) {
+    //                     this.node.angle += 4.7;
+    //                 }
+    //             } else if (this.distan > 100 && this.distan < 200) {
+    //                 this.node.y -= 2;
+    //                 this.node.angle = 0;
+    //             } else if (this.distan == 200) {
+    //                 this.distan = 0;
+    //                 this.node.y = this.firstPos.y;
+    //                 this.isJump = false;
+    //                 this.resetBtn();
+    //             }
+    //         }
+    //     }
     },
 });
