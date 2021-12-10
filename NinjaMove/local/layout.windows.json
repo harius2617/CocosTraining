@@ -1,12 +1,13 @@
 {
   "version": "1.1.1",
   "windows": {
+    "worker": {},
     "main": {
       "main": true,
       "url": "app://editor/index.html",
       "windowType": "dockable",
       "x": 0,
-      "y": 25,
+      "y": 26,
       "width": 1680,
       "height": 945,
       "layout": {
@@ -18,23 +19,23 @@
                 "children": [
                   "hierarchy"
                 ],
-                "height": 406.75,
+                "height": 407,
                 "type": "panel",
-                "width": 268.5
+                "width": 269
               },
               {
                 "active": 0,
                 "children": [
                   "assets"
                 ],
-                "height": 448.234375,
+                "height": 448,
                 "type": "panel",
-                "width": 268.5
+                "width": 269
               }
             ],
             "height": 857,
             "type": "dock-v",
-            "width": 268.5
+            "width": 269
           },
           {
             "children": [
@@ -43,9 +44,9 @@
                 "children": [
                   "scene"
                 ],
-                "height": 548.484375,
+                "height": 548,
                 "type": "panel",
-                "width": 1007.96875
+                "width": 1007
               },
               {
                 "active": 0,
@@ -54,14 +55,14 @@
                   "timeline",
                   "game-window"
                 ],
-                "height": 306.5,
+                "height": 307,
                 "type": "panel",
-                "width": 1007.96875
+                "width": 1007
               }
             ],
             "height": 857,
             "type": "dock-v",
-            "width": 1007.96875
+            "width": 1007
           },
           {
             "active": 0,
@@ -72,7 +73,7 @@
             ],
             "height": 857,
             "type": "panel",
-            "width": 399.515625
+            "width": 400
           }
         ],
         "type": "dock-h"
@@ -88,8 +89,7 @@
         "node-library",
         "scene"
       ]
-    },
-    "window-1639046377927": {}
+    }
   },
   "panels": {
     "project-settings": {

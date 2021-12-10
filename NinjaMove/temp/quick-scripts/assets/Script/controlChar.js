@@ -11,6 +11,7 @@ cc.Class({
         isRight: false,
         isLeft: false,
         isJump: false,
+        isReset: false,
         distan: 0,
         firstPos: null,
         btnReset: cc.Button,
@@ -45,6 +46,7 @@ cc.Class({
         this.btnLeft.interactable = false;
     },
     reset: function reset() {
+        this.isReset = true;
         this.node.position = this.firstPos;
     },
     resetBtn: function resetBtn() {
@@ -54,10 +56,9 @@ cc.Class({
         this.btnReset.interactable = true;
     },
     update: function update(dt) {
-        if (this.isJump || this.isLeft || this.isRight) {
+        if (this.isJump || this.isLeft || this.isRight || this.isReset) {
             this.distan++;
             if (this.isRight) {
-                cc.log("right");
                 this.node.scaleX = -1;
                 this.node.x += 3;
                 if (this.distan == 100) {
@@ -68,9 +69,6 @@ cc.Class({
             }
 
             if (this.isLeft) {
-                cc.log('left');
-                cc.log(this.isLeft);
-                cc.log("right", this.isRight);
                 this.node.scaleX = 1;
                 this.node.x -= 3;
                 if (this.distan == 100) {
@@ -93,7 +91,6 @@ cc.Class({
                     this.distan = 0;
                     this.isJump = false;
                     this.resetBtn();
-                    this.reset();
                 }
             }
         }
