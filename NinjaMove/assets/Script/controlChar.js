@@ -55,7 +55,7 @@ cc.Class({
     },
 
     update(dt) {
-        if (this.isJump || this.isLeft || this.isRight || this.isReset) {
+        if (this.isJump || this.isLeft || this.isRight) {
             this.distan++;
             if (this.isRight) {
                 this.node.scaleX = -1
@@ -88,6 +88,7 @@ cc.Class({
                     this.node.angle = 0;
                 } else if (this.distan == 200) {
                     this.distan = 0;
+                    this.node.position = this.firstPos;
                     this.isJump = false;
                     this.resetBtn();
                 }

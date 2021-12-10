@@ -169,7 +169,7 @@
       "__type__": "cc.Vec3",
       "x": 0,
       "y": 0,
-      "z": 370.65261169013127
+      "z": 433.8787272960038
     },
     "_scale": {
       "__type__": "cc.Vec3",
@@ -474,6 +474,7 @@
     "isRight": false,
     "isLeft": false,
     "isJump": false,
+    "isReset": false,
     "distan": 0,
     "firstPos": null,
     "btnReset": {

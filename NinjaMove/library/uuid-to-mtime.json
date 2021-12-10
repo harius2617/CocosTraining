@@ -419,35 +419,20 @@
     "meta": 1639110058750,
     "relativePath": "model/primitives.fbx"
   },
-  "10af4dec-1d06-41e7-8432-158abdee5850": {
-    "asset": 1638755744614,
-    "meta": 1639040072547,
-    "relativePath": "Char.jpg"
-  },
   "29f52784-2fca-467b-92e7-8fd9ef8c57b7": {
     "asset": 1638755744615,
     "meta": 1638755744615,
     "relativePath": "Scene"
   },
   "2d2f792f-a40c-49bb-a189-ed176a246e49": {
-    "asset": 1639046356371,
-    "meta": 1639046356394,
+    "asset": 1639110845508,
+    "meta": 1639110845516,
     "relativePath": "Scene/bai1.fire"
-  },
-  "c4f2d589-f0ae-4e06-b2a4-a16f7c866ba9": {
-    "asset": 1638771925507,
-    "meta": 1639040072555,
-    "relativePath": "Scene/bai2.fire"
   },
   "4734c20c-0db8-4eb2-92ea-e692f4d70934": {
     "asset": 1639042345172,
     "meta": 1638755744616,
     "relativePath": "Script"
-  },
-  "ffcae3b3-3020-4306-a83d-6347adf41551": {
-    "asset": 1638755744614,
-    "meta": 1639040072530,
-    "relativePath": "BG.jpg"
   },
   "280c3aec-6492-4a9d-9f51-a9b00b570b4a": {
     "asset": 1638755744616,
@@ -469,21 +454,6 @@
     "meta": 1639040072795,
     "relativePath": "Texture/HelloWorld.png"
   },
-  "afaddfa6-247c-4f7b-9c9e-e4451037f35f": {
-    "asset": 1638760158885,
-    "meta": 1639040072524,
-    "relativePath": "bg1.jpeg"
-  },
-  "8269c85b-d1ed-48d1-81fd-f98c5f2a6c6d": {
-    "asset": 1638760507662,
-    "meta": 1639040072539,
-    "relativePath": "bg2.jpeg"
-  },
-  "ad86861e-c8c4-4fd1-9874-26f768364f95": {
-    "asset": 1638761334883,
-    "meta": 1639040072739,
-    "relativePath": "button.png"
-  },
   "c2e32764-593c-4da3-9ba3-ae660895e110": {
     "asset": 1639040768874,
     "meta": 1639040777629,
@@ -499,14 +469,14 @@
     "meta": 1639042424229,
     "relativePath": "Script/button.js"
   },
-  "8f8fed10-c428-4548-86ac-d8967fda978f": {
-    "asset": 1639043530876,
-    "meta": 1639043533015,
-    "relativePath": "Script/keyboard.js"
-  },
   "bd541efd-a0d3-4a1e-97fd-8281d74fd959": {
-    "asset": 1639110505731,
-    "meta": 1639110512274,
+    "asset": 1639110681068,
+    "meta": 1639110683441,
     "relativePath": "Script/controlChar.js"
+  },
+  "8f8fed10-c428-4548-86ac-d8967fda978f": {
+    "asset": 1639110749131,
+    "meta": 1639110776483,
+    "relativePath": "Script/keyboard.js"
   }
 }
