@@ -15,11 +15,14 @@ cc.Class({
     },
 
     easeInSineBtn() {
-        let action = cc.moveTo(2, 0, 50);
-        action.easing(cc.easeInSine(3.0))
+        let action = cc.moveTo(2, 50, -100);
+        action.easing(cc.easeBounceInOut(3.0))
         this.node.runAction(action)
     },
 
+    // onLoad () {
+    //     cc.log(cc.esa)
+    // },
     start () {
 
     },
