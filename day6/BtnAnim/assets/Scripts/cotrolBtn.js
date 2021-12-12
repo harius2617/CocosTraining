@@ -292,7 +292,7 @@ cc.Class({
         const callback = () => {
             this.spAnim.setAnimation(0, "idle", true)
         }
-        let action = cc.sequenceq(cc.moveBy(4,450,0),cc.callFunc(callback));
+        let action = cc.sequence(cc.moveBy(4,450,0),cc.callFunc(callback));
         action.easing(cc.easeBounceIn(3.0));
         this.node.runAction(action);
     },

@@ -346,8 +346,8 @@
     },
     "_scale": {
       "__type__": "cc.Vec3",
-      "x": 0.5,
-      "y": 0.5,
+      "x": 0.4,
+      "y": 0.4,
       "z": 1
     },
     "_eulerAngles": {
@@ -377,7 +377,7 @@
     ],
     "paused": false,
     "defaultSkin": "",
-    "defaultAnimation": "aim",
+    "defaultAnimation": "idle",
     "_preCacheMode": 0,
     "_cacheMode": 0,
     "loop": true,
@@ -388,7 +388,7 @@
     "_frameCache": null,
     "_curFrame": null,
     "_skeletonCache": null,
-    "_animationName": "aim",
+    "_animationName": "idle",
     "_animationQueue": [],
     "_headAniInfo": null,
     "_playTimes": 0,
