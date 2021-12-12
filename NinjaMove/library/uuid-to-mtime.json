@@ -455,8 +455,8 @@
     "relativePath": "Script\\controlChar.js"
   },
   "a088046a-6d28-4c99-b8ef-710bd811e317": {
-    "asset": 1639317761474,
-    "meta": 1639317761579,
+    "asset": 1639327743951,
+    "meta": 1639327743968,
     "relativePath": "Scene\\hi.fire"
   },
   "c2e32764-593c-4da3-9ba3-ae660895e110": {
@@ -474,14 +474,14 @@
     "meta": 1639315092186,
     "relativePath": "Script\\keyboard.js"
   },
-  "4c4a8dc1-fe2c-48f0-bc90-babb00666407": {
-    "asset": 1639317467999,
-    "meta": 1639317488362,
-    "relativePath": "Script\\button.js"
-  },
   "5e46579d-42a5-47d3-9191-06e5b26ca724": {
     "asset": 1639326349682,
     "meta": 1639326350944,
     "relativePath": "Script\\controlByTween.js"
+  },
+  "4c4a8dc1-fe2c-48f0-bc90-babb00666407": {
+    "asset": 1639328088362,
+    "meta": 1639328091008,
+    "relativePath": "Script\\button.js"
   }
 }
