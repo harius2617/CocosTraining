@@ -1,11 +1,11 @@
 const Emitter = require('mEmitter');
 cc.Class({
     extends: cc.Component,
-
     properties: {
     },
 
     moveRight() {
+        cc.warn("RIGHT_BY_TWEEN")
         cc.tween(this.node) 
             .to(0, {scaleX: 1})
             .by(1, {position: cc.v2(200,0)}, {easing: "backInOut"})
@@ -13,6 +13,7 @@ cc.Class({
     },
 
     moveLeft() {
+        cc.warn("LEFT_BY_TWEEN")
         cc.tween(this.node)
             .to(0, {scaleX: -1})
             .by(1, {position: cc.v2(-200,0)}, {easing: "backInOut"})
@@ -20,6 +21,7 @@ cc.Class({
     },
 
     jump() {
+        cc.warn("JUMP_BY_TWEEN")
         let t = cc.tween;
         t(this.node)
             .parallel(
@@ -34,6 +36,7 @@ cc.Class({
     },
 
     reset(){
+        cc.warn("RESET_BY_TWEEN")
         cc.tween(this.node)
             .to(0, {position: this.firstPos})
             .start()
@@ -42,10 +45,10 @@ cc.Class({
     onLoad() {
         Emitter.instance = new Emitter();
         this.firstPos = this.node.position;
-        Emitter.instance.registerEvent("RIGHT", this.moveRight.bind(this));
-        Emitter.instance.registerEvent("LEFT", this.moveLeft.bind(this));
-        Emitter.instance.registerEvent("JUMP", this.jump.bind(this));
-        Emitter.instance.registerEvent("RESET", this.reset.bind(this));
+        Emitter.instance.registerEvent("RIGHT_BY_TWEEN", this.moveRight.bind(this));
+        Emitter.instance.registerEvent("LEFT_BY_TWEEN", this.moveLeft.bind(this));
+        Emitter.instance.registerEvent("JUMP_BY_TWEEN", this.jump.bind(this));
+        Emitter.instance.registerEvent("RESET_BY_TWEEN", this.reset.bind(this));
     },
 
     start() {
