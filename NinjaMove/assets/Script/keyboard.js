@@ -40,16 +40,20 @@ cc.Class({
         }
     },
     moveRight() {
-        Emitter.instance.emit('RIGHT');
+        Emitter.instance.emit('RIGHT_BY_ACTION');
+        // Emitter.instance.emit('RIGHT_BY_TWEEN');
     },
 
     moveLeft() {
-        Emitter.instance.emit('LEFT');
+        Emitter.instance.emit('LEFT_BY_ACTION');
+        // Emitter.instance.emit('LEFT_BY_TWEEN');
     },
     jump() {
-        Emitter.instance.emit("JUMP");
+        Emitter.instance.emit("JUMP_BY_ACTION");
+        // Emitter.instance.emit("JUMP_BY_TWEEN");
     },
     reset() {
-        Emitter.instance.emit("RESET")
+        Emitter.instance.emit("RESET_BY_ACTION")
+        // Emitter.instance.emit("RESET_BY_TWEEN")
     }
 });

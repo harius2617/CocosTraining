@@ -455,24 +455,14 @@
     "relativePath": "Script\\controlChar.js"
   },
   "a088046a-6d28-4c99-b8ef-710bd811e317": {
-    "asset": 1639331978410,
-    "meta": 1639331978428,
+    "asset": 1639333368674,
+    "meta": 1639333368689,
     "relativePath": "Scene\\hi.fire"
   },
   "c2e32764-593c-4da3-9ba3-ae660895e110": {
     "asset": 1639313249953,
     "meta": 1639313269822,
     "relativePath": "Script\\mEmitter.js"
-  },
-  "8f8fed10-c428-4548-86ac-d8967fda978f": {
-    "asset": 1639315030726,
-    "meta": 1639315092186,
-    "relativePath": "Script\\keyboard.js"
-  },
-  "2a871107-eaf2-4f4e-9cfe-55312a478afa": {
-    "asset": 1639331826635,
-    "meta": 1639331864860,
-    "relativePath": "Script\\ControlByRunAct.js"
   },
   "5e46579d-42a5-47d3-9191-06e5b26ca724": {
     "asset": 1639331862819,
@@ -483,5 +473,15 @@
     "asset": 1639331929503,
     "meta": 1639331931686,
     "relativePath": "Script\\button.js"
+  },
+  "2a871107-eaf2-4f4e-9cfe-55312a478afa": {
+    "asset": 1639333021861,
+    "meta": 1639333023413,
+    "relativePath": "Script\\ControlByRunAct.js"
+  },
+  "8f8fed10-c428-4548-86ac-d8967fda978f": {
+    "asset": 1639333365813,
+    "meta": 1639333367525,
+    "relativePath": "Script\\keyboard.js"
   }
 }
