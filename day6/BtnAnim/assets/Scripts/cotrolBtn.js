@@ -18,6 +18,7 @@ cc.Class({
     },
 
     easeInSineBtn() {
+        this.resetBtn();
         this.spAnim.setAnimation(0, "run", true);
         const callback = () => {
             this.spAnim.setAnimation(0, "idle", true)
@@ -28,6 +29,7 @@ cc.Class({
     },
 
     easeOutSine(){
+        this.resetBtn();
         this.spAnim.setAnimation(0, "run", true);
         const callback = () => {
             this.spAnim.setAnimation(0, "idle", true)
@@ -38,6 +40,7 @@ cc.Class({
     },
 
     easeInOutSine() {
+        this.resetBtn();
         this.spAnim.setAnimation(0, "run", true);
         const callback = () => {
             this.spAnim.setAnimation(0, "idle", true)
@@ -48,6 +51,7 @@ cc.Class({
     },
 
     easeInQuad(){
+        this.resetBtn();
         this.spAnim.setAnimation(0, "run", true);
         const callback = () => {
             this.spAnim.setAnimation(0, "idle", true)
@@ -58,6 +62,7 @@ cc.Class({
     },
 
     easeOutQuad() {
+        this.resetBtn();
         this.spAnim.setAnimation(0, "run", true);
         const callback = () => {
             this.spAnim.setAnimation(0, "idle", true)
@@ -68,6 +73,7 @@ cc.Class({
     },
 
     easeInOutQuad() {
+        this.resetBtn();
         this.spAnim.setAnimation(0, "run", true);
         const callback = () => {
             this.spAnim.setAnimation(0, "idle", true)
@@ -78,6 +84,7 @@ cc.Class({
     },
 
     easeInBack() {
+        this.resetBtn();
         this.spAnim.setAnimation(0, "run", true);
         const callback = () => {
             this.spAnim.setAnimation(0, "idle", true)
@@ -88,6 +95,7 @@ cc.Class({
     },
 
     easeInCubic(){
+        this.resetBtn();
         this.spAnim.setAnimation(0, "run", true);
         const callback = () => {
             this.spAnim.setAnimation(0, "idle", true)
@@ -98,6 +106,7 @@ cc.Class({
     },
 
     easeOutCubic(){
+        this.resetBtn();
         this.spAnim.setAnimation(0, "run", true);
         const callback = () => {
             this.spAnim.setAnimation(0, "idle", true)
@@ -108,6 +117,7 @@ cc.Class({
     },
 
     easeInOutCubic(){
+        this.resetBtn();
         this.spAnim.setAnimation(0, "run", true);
         const callback = () => {
             this.spAnim.setAnimation(0, "idle", true)
@@ -118,6 +128,7 @@ cc.Class({
     },
     
     easeInQuart(){
+        this.resetBtn();
         this.spAnim.setAnimation(0, "run", true);
         const callback = () => {
             this.spAnim.setAnimation(0, "idle", true)
@@ -128,6 +139,7 @@ cc.Class({
     },
 
     easeOutQuart(){
+        this.resetBtn();
         this.spAnim.setAnimation(0, "run", true);
         const callback = () => {
             this.spAnim.setAnimation(0, "idle", true)
@@ -138,6 +150,7 @@ cc.Class({
     },
 
     easeInOutQuart(){
+        this.resetBtn();
         this.spAnim.setAnimation(0, "run", true);
         const callback = () => {
             this.spAnim.setAnimation(0, "idle", true)
@@ -148,6 +161,7 @@ cc.Class({
     },
 
     easeInQuint(){
+        this.resetBtn();
         this.spAnim.setAnimation(0, "run", true);
         const callback = () => {
             this.spAnim.setAnimation(0, "idle", true)
@@ -158,6 +172,7 @@ cc.Class({
     },
 
     easeOutQuint(){
+        this.resetBtn();
         this.spAnim.setAnimation(0, "run", true);
         const callback = () => {
             this.spAnim.setAnimation(0, "idle", true)
@@ -168,6 +183,7 @@ cc.Class({
     },
 
     easeInOutQuint(){
+        this.resetBtn();
         this.spAnim.setAnimation(0, "run", true);
         const callback = () => {
             this.spAnim.setAnimation(0, "idle", true)
@@ -178,6 +194,7 @@ cc.Class({
     },
 
     easeInExpo(){
+        this.resetBtn();
         this.spAnim.setAnimation(0, "run", true);
         const callback = () => {
             this.spAnim.setAnimation(0, "idle", true)
@@ -188,6 +205,7 @@ cc.Class({
     },
 
     easeOutExpo(){
+        this.resetBtn();
         this.spAnim.setAnimation(0, "run", true);
         const callback = () => {
             this.spAnim.setAnimation(0, "idle", true)
@@ -198,6 +216,7 @@ cc.Class({
     },
 
     easeInOutExpo(){
+        this.resetBtn();
         this.spAnim.setAnimation(0, "run", true);
         const callback = () => {
             this.spAnim.setAnimation(0, "idle", true)
@@ -208,6 +227,7 @@ cc.Class({
     },
 
     easeInCirc(){
+        this.resetBtn();
         this.spAnim.setAnimation(0, "run", true);
         const callback = () => {
             this.spAnim.setAnimation(0, "idle", true)
@@ -218,6 +238,7 @@ cc.Class({
     },
 
     easeOutCirc(){
+        this.resetBtn();
         this.spAnim.setAnimation(0, "run", true);
         const callback = () => {
             this.spAnim.setAnimation(0, "idle", true)
@@ -228,6 +249,7 @@ cc.Class({
     },
 
     easeInOutCirc(){
+        this.resetBtn();
         this.spAnim.setAnimation(0, "run", true);
         const callback = () => {
             this.spAnim.setAnimation(0, "idle", true)
@@ -238,6 +260,7 @@ cc.Class({
     },
 
     easeOutBack() {
+        this.resetBtn();
         this.spAnim.setAnimation(0, "run", true);
         const callback = () => {
             this.spAnim.setAnimation(0, "idle", true)
@@ -248,6 +271,7 @@ cc.Class({
     },
 
     easeInOutBack() {
+        this.resetBtn();
         this.spAnim.setAnimation(0, "run", true);
         const callback = () => {
             this.spAnim.setAnimation(0, "idle", true)
@@ -258,6 +282,7 @@ cc.Class({
     },
 
     easeInElastic(){
+        this.resetBtn();
         this.spAnim.setAnimation(0, "run", true);
         const callback = () => {
             this.spAnim.setAnimation(0, "idle", true)
@@ -268,6 +293,7 @@ cc.Class({
     },
 
     easeOutElastic() {
+        this.resetBtn();
         this.spAnim.setAnimation(0, "run", true);
         const callback = () => {
             this.spAnim.setAnimation(0, "idle", true)
@@ -278,6 +304,7 @@ cc.Class({
     },
 
     easeInOutElastic() {
+        this.resetBtn();
         this.spAnim.setAnimation(0, "run", true);
         const callback = () => {
             this.spAnim.setAnimation(0, "idle", true)
@@ -288,6 +315,7 @@ cc.Class({
     },
 
     easeInBounce() {
+        this.resetBtn();
         this.spAnim.setAnimation(0, "run", true);
         const callback = () => {
             this.spAnim.setAnimation(0, "idle", true)
@@ -298,6 +326,7 @@ cc.Class({
     },
 
     easeOutBounce() {
+        this.resetBtn();
         this.spAnim.setAnimation(0, "run", true);
         const callback = () => {
             this.spAnim.setAnimation(0, "idle", true)
@@ -308,6 +337,7 @@ cc.Class({
     },
 
     easeInOutBounce() {
+        this.resetBtn();
         this.spAnim.setAnimation(0, "run", true);
         const callback = () => {
             this.spAnim.setAnimation(0, "idle", true)
