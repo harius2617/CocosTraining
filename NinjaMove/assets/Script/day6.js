@@ -52,51 +52,7 @@ cc.Class({
     // LIFE-CYCLE CALLBACKS:
 
     onLoad() {
-        // var seq = cc.repeat(
-        //     cc.sequence(
-        //         cc.moveBy(0.5, 100, 0), 
-        //         cc.moveBy(1, -100, 0), 
-        //         cc.moveBy(1, 100, 0),  
-        //         cc.moveBy(1, 0, 0)
-        // ),5)
 
-
-        // var spaw = cc.spawn(cc.moveBy(1, 200, 100), cc.scaleTo(0.5, 2, 2))
-        // this.node.runAction(seq)
-
-        // this.jumpAction = cc.sequence(
-        //     cc.spawn(
-        //     cc.scaleTo(0.1, 0.8, 1.2),
-        //     cc.moveTo(0.1, 0, 10)
-        //     ),
-        //     cc.spawn(
-        //         cc.scaleTo(0.1, 0.8, 1.2),
-        //         cc.moveTo(0.1, 200, 10)
-        //         ),
-        //     cc.spawn(
-        //     cc.scaleTo(0.2, 1, 1),
-        //     cc.moveTo(0.2, 0, 0)
-        //     ),
-        //     cc.delayTime(0.5),
-        //     cc.spawn(
-        //     cc.scaleTo(0.1, 1.2, 0.8),
-        //     cc.moveTo(0.1, -200, -10)
-        //     ),
-        //     cc.spawn(
-        //     cc.scaleTo(0.2, 1, 1),
-        //     cc.moveTo(0.2, 0, 0)
-        //     )
-        //     // play the animation at 1/2 speed and repeat 5 times
-        //     ).speed(2).repeat(10);
-
-        // var action = cc.scaleTo(0.5, 2, 2);
-        // action.easing(cc.easeIn(3.0));
-        // this.node.runAction(action)
-
-        // cc.tween(this.node)
-        //     .by(1, {position: cc.v2(100,100), rotation: 360})
-        //     .to(1, {scale: 2})
-        //     .start()
     },
 
     start() {

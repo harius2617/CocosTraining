@@ -1,5 +1,5 @@
 (function() {"use strict";var __module = CC_EDITOR ? module : {exports:{}};var __filename = 'preview-scripts/assets/Script/day6.js';var __require = CC_EDITOR ? function (request) {return cc.require(request, require);} : function (request) {return cc.require(request, __filename);};function __define (exports, require, module) {"use strict";
-cc._RF.push(module, '5e465edQqVH05GRBuWybKck', 'day6', __filename);
+cc._RF.push(module, 'c62cceUxXBN4ZFP9BWQO5QK', 'day6', __filename);
 // Script/day6.js
 
 "use strict";
@@ -47,53 +47,7 @@ cc.Class({
 
     // LIFE-CYCLE CALLBACKS:
 
-    onLoad: function onLoad() {
-        // var seq = cc.repeat(
-        //     cc.sequence(
-        //         cc.moveBy(0.5, 100, 0), 
-        //         cc.moveBy(1, -100, 0), 
-        //         cc.moveBy(1, 100, 0),  
-        //         cc.moveBy(1, 0, 0)
-        // ),5)
-
-
-        // var spaw = cc.spawn(cc.moveBy(1, 200, 100), cc.scaleTo(0.5, 2, 2))
-        // this.node.runAction(seq)
-
-        // this.jumpAction = cc.sequence(
-        //     cc.spawn(
-        //     cc.scaleTo(0.1, 0.8, 1.2),
-        //     cc.moveTo(0.1, 0, 10)
-        //     ),
-        //     cc.spawn(
-        //         cc.scaleTo(0.1, 0.8, 1.2),
-        //         cc.moveTo(0.1, 200, 10)
-        //         ),
-        //     cc.spawn(
-        //     cc.scaleTo(0.2, 1, 1),
-        //     cc.moveTo(0.2, 0, 0)
-        //     ),
-        //     cc.delayTime(0.5),
-        //     cc.spawn(
-        //     cc.scaleTo(0.1, 1.2, 0.8),
-        //     cc.moveTo(0.1, -200, -10)
-        //     ),
-        //     cc.spawn(
-        //     cc.scaleTo(0.2, 1, 1),
-        //     cc.moveTo(0.2, 0, 0)
-        //     )
-        //     // play the animation at 1/2 speed and repeat 5 times
-        //     ).speed(2).repeat(10);
-
-        // var action = cc.scaleTo(0.5, 2, 2);
-        // action.easing(cc.easeIn(3.0));
-        // this.node.runAction(action)
-
-        // cc.tween(this.node)
-        //     .by(1, {position: cc.v2(100,100), rotation: 360})
-        //     .to(1, {scale: 2})
-        //     .start()
-    },
+    onLoad: function onLoad() {},
     start: function start() {}
 }
 

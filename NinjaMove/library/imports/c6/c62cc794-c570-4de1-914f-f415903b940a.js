@@ -1,6 +1,6 @@
 "use strict";
-cc._RF.push(module, '79d0fHegL5P74zPmf7tAo88', 'day6.2');
-// Script/day6.2.js
+cc._RF.push(module, 'c62cceUxXBN4ZFP9BWQO5QK', 'day6');
+// Script/day6.js
 
 "use strict";
 
@@ -35,20 +35,19 @@ cc.Class({
         // },
     },
 
+    moveRight: function moveRight() {
+        cc.tween(this.node).to(1, { position: cc.v2(100, 0), rotation: 360 }).start();
+    },
+    moveLeft: function moveLeft() {
+        cc.tween(this.node).to(1, { position: cc.v2(-100, 0), rotation: -360 }).start();
+    },
+    jump: function jump() {},
+    reset: function reset() {},
+
+
     // LIFE-CYCLE CALLBACKS:
 
-    // onLoad () {
-    //     this.node.runAction(
-    //         cc.sequence(
-    //             cc.spawn (
-    //                 cc.moveTo(1, 100, 100),
-    //                 cc.rotateBy(1, 360),
-    //             ),
-    //             cc.scaleTo(1, 2)
-    //         ),
-    //     )
-    // },
-
+    onLoad: function onLoad() {},
     start: function start() {}
 }
 

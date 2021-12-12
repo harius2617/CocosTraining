@@ -43,7 +43,6 @@ cc.Class({
             case cc.macro.KEY.down:
                 this.reset();
                 break;
-
         }
     },
     moveRight: function moveRight() {
