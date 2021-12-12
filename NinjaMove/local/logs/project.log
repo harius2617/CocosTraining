@@ -1,260 +1,68 @@
-2021-12-12T12:40:56.970Z - normal: Load ~/.CocosCreator/settings.json
-2021-12-12T12:40:58.453Z - normal: Initializing Asset Database
-2021-12-12T12:40:58.498Z - normal: checking language setting...
-2021-12-12T12:40:58.498Z - normal: Language: en
-2021-12-12T12:41:03.068Z - success: preview server running at http://localhost:7456
-2021-12-12T12:41:03.078Z - success: protocol editor-framework registered
-2021-12-12T12:41:03.079Z - success: protocol app registered
-2021-12-12T12:41:03.079Z - success: protocol theme registered
-2021-12-12T12:41:03.079Z - success: protocol packages registered
-2021-12-12T12:41:03.080Z - success: protocol uuid registerred
-2021-12-12T12:41:03.080Z - success: protocol db registerred
-2021-12-12T12:41:03.080Z - success: protocol thumbnail registerred
-2021-12-12T12:41:03.081Z - success: protocol unpack registerred
-2021-12-12T12:41:03.081Z - success: protocol disable-commonjs registerred
-2021-12-12T12:41:06.075Z - normal: failed to connect login server due to request timeout
-2021-12-12T12:41:06.075Z - normal: Check project D:\IT\Gemi\CocosTraining\NinjaMove
-2021-12-12T12:41:06.085Z - normal: Initializing project D:\IT\Gemi\CocosTraining\NinjaMove
-2021-12-12T12:41:07.917Z - normal: Initializing Cocos2d
-2021-12-12T12:41:19.657Z - normal: Initializing engine extends
-2021-12-12T12:41:20.025Z - success: alipay-adapter loaded
-2021-12-12T12:41:20.155Z - success: asset-db-debugger loaded
-2021-12-12T12:41:20.186Z - success: baidu-adapter loaded
-2021-12-12T12:41:20.219Z - success: color-picker loaded
-2021-12-12T12:41:20.856Z - success: fb-audience-network loaded
-2021-12-12T12:41:21.089Z - success: fb-live-stream loaded
-2021-12-12T12:41:21.145Z - success: google-play-instant loaded
-2021-12-12T12:41:21.358Z - success: huawei-runtime loaded
-2021-12-12T12:41:24.391Z - success: cpk-publish loaded
-2021-12-12T12:41:24.411Z - success: jsb-adapter loaded
-2021-12-12T12:41:24.568Z - success: oppo-runtime loaded
-2021-12-12T12:41:24.667Z - success: package-manager loaded
-2021-12-12T12:41:25.372Z - success: qqplay-adapter loaded
-2021-12-12T12:41:25.406Z - success: runtime-dev-tools loaded
-2021-12-12T12:41:25.471Z - success: sdkbox loaded
-2021-12-12T12:41:25.541Z - success: tester loaded
-2021-12-12T12:41:25.598Z - success: ui-kit-preview-extra loaded
-2021-12-12T12:41:25.665Z - success: ui-kit-preview loaded
-2021-12-12T12:41:25.666Z - success: ui-kit loaded
-2021-12-12T12:41:25.860Z - success: vivo-runtime loaded
-2021-12-12T12:41:25.868Z - success: weapp-adapter loaded
-2021-12-12T12:41:25.879Z - success: xiaomi-adapter loaded
-2021-12-12T12:41:25.909Z - success: alipay-minigame loaded
-2021-12-12T12:41:26.064Z - success: assets loaded
-2021-12-12T12:41:26.076Z - success: builder loaded
-2021-12-12T12:41:27.247Z - success: cocos-services loaded
-2021-12-12T12:41:27.264Z - success: console loaded
-2021-12-12T12:41:27.355Z - success: fb-instant-games loaded
-2021-12-12T12:41:27.365Z - success: game-window loaded
-2021-12-12T12:41:27.367Z - success: google-instant-games loaded
-2021-12-12T12:41:27.384Z - success: hierarchy loaded
-2021-12-12T12:41:27.396Z - success: inspector loaded
-2021-12-12T12:41:27.398Z - success: keystore loaded
-2021-12-12T12:41:27.413Z - success: node-library loaded
-2021-12-12T12:41:27.417Z - success: package-asset loaded
-2021-12-12T12:41:27.423Z - success: preferences loaded
-2021-12-12T12:41:27.426Z - success: project-exporter loaded
-2021-12-12T12:41:27.434Z - success: project-importer loaded
-2021-12-12T12:41:27.439Z - success: project-settings loaded
-2021-12-12T12:41:27.474Z - success: scene loaded
-2021-12-12T12:41:27.480Z - success: simulator-debugger loaded
-2021-12-12T12:41:27.483Z - success: sprite-editor loaded
-2021-12-12T12:41:27.495Z - success: store loaded
-2021-12-12T12:41:27.542Z - success: timeline loaded
-2021-12-12T12:41:27.562Z - success: xiaomi-runtime loaded
-2021-12-12T12:41:38.034Z - info: Cocos Services load base data!
-2021-12-12T12:41:57.960Z - normal: Loading packages
-2021-12-12T12:41:57.984Z - normal: Watching packages
-2021-12-12T12:41:59.535Z - normal: Run Application
-2021-12-12T13:18:58.057Z - success: huawei-runtime unloaded
-2021-12-12T13:18:58.059Z - success: cpk-publish unloaded
-2021-12-12T13:18:58.071Z - success: huawei-runtime loaded
-2021-12-12T13:18:58.071Z - success: cpk-publish loaded
-2021-12-12T13:18:58.167Z - success: oppo-runtime unloaded
-2021-12-12T13:18:58.169Z - success: vivo-runtime unloaded
-2021-12-12T13:18:58.175Z - success: oppo-runtime loaded
-2021-12-12T13:18:58.175Z - success: vivo-runtime loaded
-2021-12-12T13:58:09.300Z - error: scene not saved. Please build project after saveing project.
-    at Editor.Ipc.sendToPanel (D:\IT\Gemi\app\cocos\CocosCreator\resources\app.asar\editor\builtin\builder\panel\builder.js:1:7875)
-    at EventEmitter.o.on.n (D:\IT\Gemi\app\cocos\CocosCreator\resources\app.asar\editor-framework\lib\renderer\ipc.js:1:3757)
-    at emitMany (events.js:127:13)
-    at EventEmitter.emit (events.js:204:7)
-2021-12-12T13:58:13.335Z - error: scene not saved. Please build project after saveing project.
-    at Editor.Ipc.sendToPanel (D:\IT\Gemi\app\cocos\CocosCreator\resources\app.asar\editor\builtin\builder\panel\builder.js:1:7875)
-    at EventEmitter.o.on.n (D:\IT\Gemi\app\cocos\CocosCreator\resources\app.asar\editor-framework\lib\renderer\ipc.js:1:3757)
-    at emitMany (events.js:127:13)
-    at EventEmitter.emit (events.js:204:7)
-2021-12-12T13:58:35.938Z - normal: Start building with options : {
-  "actualPlatform": "web-desktop",
-  "android-instant": {
-    "REMOTE_SERVER_ROOT": "",
-    "host": "",
-    "pathPattern": "",
-    "recordPath": "",
-    "scheme": "https",
-    "skipRecord": false
-  },
-  "apiLevel": "",
-  "appABIs": [],
-  "appBundle": false,
-  "baidugame": {
-    "REMOTE_SERVER_ROOT": "",
-    "appid": "testappid",
-    "orientation": "portrait",
-    "subContext": ""
-  },
-  "buildPath": "D:\\IT\\Gemi\\CocosTraining\\NinjaMove\\build",
-  "debug": false,
-  "dest": "D:\\IT\\Gemi\\CocosTraining\\NinjaMove\\build\\web-desktop",
-  "embedWebDebugger": false,
-  "encryptJs": true,
-  "excludeScenes": [],
-  "excludedModules": [],
-  "fb-instant-games": {},
-  "includeSDKBox": false,
-  "inlineSpriteFrames": true,
-  "inlineSpriteFrames_native": true,
-  "md5Cache": false,
-  "mergeStartScene": false,
-  "optimizeHotUpdate": false,
-  "orientation": {
-    "landscapeLeft": true,
-    "landscapeRight": true,
-    "portrait": false,
-    "upsideDown": false
-  },
-  "packageName": "org.cocos2d.helloworld",
-  "platform": "web-desktop",
-  "previewHeight": "720",
-  "previewWidth": "1280",
-  "qqplay": {
-    "REMOTE_SERVER_ROOT": "",
-    "orientation": "portrait",
-    "zip": false
-  },
-  "scenes": [
-    "2d2f792f-a40c-49bb-a189-ed176a246e49",
-    "a088046a-6d28-4c99-b8ef-710bd811e317"
-  ],
-  "sourceMaps": false,
-  "startScene": "2d2f792f-a40c-49bb-a189-ed176a246e49",
-  "template": "link",
-  "title": "Ninja",
-  "useDebugKeystore": true,
-  "vsVersion": "auto",
-  "webOrientation": "auto",
-  "wechatgame": {
-    "REMOTE_SERVER_ROOT": "",
-    "appid": "wx6ac3f5090a6b99c5",
-    "orientation": "portrait",
-    "separate_engine": false,
-    "subContext": ""
-  },
-  "xxteaKey": "c4005459-5804-47",
-  "zipCompressJs": true,
-  "project": "D:\\IT\\Gemi\\CocosTraining\\NinjaMove",
-  "projectName": "Ninja",
-  "debugBuildWorker": false
-}
-2021-12-12T13:58:35.942Z - normal: Building D:\IT\Gemi\CocosTraining\NinjaMove
-2021-12-12T13:58:35.942Z - normal: Destination D:\IT\Gemi\CocosTraining\NinjaMove\build\web-desktop
-2021-12-12T13:58:36.874Z - normal: Delete D:\IT\Gemi\CocosTraining\NinjaMove\build\web-desktop\subpackages/**/*,D:\IT\Gemi\CocosTraining\NinjaMove\build\web-desktop\**\*
-2021-12-12T13:58:41.335Z - normal: Start building assets
-2021-12-12T13:58:41.336Z - normal: Start spawn build-worker
-2021-12-12T13:58:42.550Z - normal: Finish spawn build-worker
-2021-12-12T13:58:42.550Z - normal: Start init build-worker
-2021-12-12T13:58:47.122Z - normal: Finish init build-worker
-2021-12-12T13:58:47.122Z - normal: Start build-assets in worker
-2021-12-12T13:58:48.155Z - normal: Finish build-assets in worker
-2021-12-12T13:58:48.174Z - normal: Finish building assets
-2021-12-12T13:58:48.188Z - normal: Start building plugin scripts
-2021-12-12T13:58:48.219Z - normal: Generating main.js from D:\IT\Gemi\app\cocos\CocosCreator\resources\static\build-templates\shares\main.js
-2021-12-12T13:58:48.314Z - normal: Generating html from D:\IT\Gemi\app\cocos\CocosCreator\resources\static\build-templates\web-desktop\template\index.html
-2021-12-12T13:58:48.340Z - normal: Built to "D:\IT\Gemi\CocosTraining\NinjaMove\build\web-desktop" successfully
-2021-12-12T13:59:12.023Z - normal: Start building with options : {
-  "actualPlatform": "web-desktop",
-  "android-instant": {
-    "REMOTE_SERVER_ROOT": "",
-    "host": "",
-    "pathPattern": "",
-    "recordPath": "",
-    "scheme": "https",
-    "skipRecord": false
-  },
-  "apiLevel": "",
-  "appABIs": [],
-  "appBundle": false,
-  "baidugame": {
-    "REMOTE_SERVER_ROOT": "",
-    "appid": "testappid",
-    "orientation": "portrait",
-    "subContext": ""
-  },
-  "buildPath": "D:\\IT\\Gemi\\CocosTraining\\NinjaMove\\build",
-  "debug": false,
-  "dest": "D:\\IT\\Gemi\\CocosTraining\\NinjaMove\\build\\web-desktop",
-  "embedWebDebugger": false,
-  "encryptJs": true,
-  "excludeScenes": [],
-  "excludedModules": [],
-  "fb-instant-games": {},
-  "includeSDKBox": false,
-  "inlineSpriteFrames": true,
-  "inlineSpriteFrames_native": true,
-  "md5Cache": false,
-  "mergeStartScene": false,
-  "optimizeHotUpdate": false,
-  "orientation": {
-    "landscapeLeft": true,
-    "landscapeRight": true,
-    "portrait": false,
-    "upsideDown": false
-  },
-  "packageName": "org.cocos2d.helloworld",
-  "platform": "web-desktop",
-  "previewHeight": "720",
-  "previewWidth": "1280",
-  "qqplay": {
-    "REMOTE_SERVER_ROOT": "",
-    "orientation": "portrait",
-    "zip": false
-  },
-  "scenes": [
-    "a088046a-6d28-4c99-b8ef-710bd811e317",
-    "2d2f792f-a40c-49bb-a189-ed176a246e49"
-  ],
-  "sourceMaps": false,
-  "startScene": "a088046a-6d28-4c99-b8ef-710bd811e317",
-  "template": "link",
-  "title": "Ninja",
-  "useDebugKeystore": true,
-  "vsVersion": "auto",
-  "webOrientation": "auto",
-  "wechatgame": {
-    "REMOTE_SERVER_ROOT": "",
-    "appid": "wx6ac3f5090a6b99c5",
-    "orientation": "portrait",
-    "separate_engine": false,
-    "subContext": ""
-  },
-  "xxteaKey": "c4005459-5804-47",
-  "zipCompressJs": true,
-  "project": "D:\\IT\\Gemi\\CocosTraining\\NinjaMove",
-  "projectName": "Ninja",
-  "debugBuildWorker": false
-}
-2021-12-12T13:59:12.023Z - normal: Building D:\IT\Gemi\CocosTraining\NinjaMove
-2021-12-12T13:59:12.023Z - normal: Destination D:\IT\Gemi\CocosTraining\NinjaMove\build\web-desktop
-2021-12-12T13:59:12.024Z - normal: Delete D:\IT\Gemi\CocosTraining\NinjaMove\build\web-desktop\subpackages/**/*,D:\IT\Gemi\CocosTraining\NinjaMove\build\web-desktop\**\*
-2021-12-12T13:59:14.672Z - normal: Start building assets
-2021-12-12T13:59:14.672Z - normal: Start spawn build-worker
-2021-12-12T13:59:15.887Z - normal: Finish spawn build-worker
-2021-12-12T13:59:15.887Z - normal: Start init build-worker
-2021-12-12T13:59:20.239Z - normal: Finish init build-worker
-2021-12-12T13:59:20.239Z - normal: Start build-assets in worker
-2021-12-12T13:59:20.818Z - normal: Finish build-assets in worker
-2021-12-12T13:59:20.833Z - normal: Finish building assets
-2021-12-12T13:59:20.849Z - normal: Start building plugin scripts
-2021-12-12T13:59:20.860Z - normal: Generating main.js from D:\IT\Gemi\app\cocos\CocosCreator\resources\static\build-templates\shares\main.js
-2021-12-12T13:59:20.873Z - normal: Generating html from D:\IT\Gemi\app\cocos\CocosCreator\resources\static\build-templates\web-desktop\template\index.html
-2021-12-12T13:59:20.897Z - normal: Built to "D:\IT\Gemi\CocosTraining\NinjaMove\build\web-desktop" successfully
+2021-12-12T16:19:03.238Z - normal: Load ~/.CocosCreator/settings.json
+2021-12-12T16:19:04.561Z - normal: Initializing Asset Database
+2021-12-12T16:19:04.580Z - normal: checking language setting...
+2021-12-12T16:19:04.580Z - normal: Language: en
+2021-12-12T16:19:06.460Z - success: preview server running at http://localhost:7456
+2021-12-12T16:19:06.460Z - success: protocol editor-framework registered
+2021-12-12T16:19:06.460Z - success: protocol app registered
+2021-12-12T16:19:06.460Z - success: protocol theme registered
+2021-12-12T16:19:06.460Z - success: protocol packages registered
+2021-12-12T16:19:06.460Z - success: protocol uuid registerred
+2021-12-12T16:19:06.460Z - success: protocol db registerred
+2021-12-12T16:19:06.460Z - success: protocol thumbnail registerred
+2021-12-12T16:19:06.460Z - success: protocol unpack registerred
+2021-12-12T16:19:06.460Z - success: protocol disable-commonjs registerred
+2021-12-12T16:19:08.116Z - normal: connected!
+2021-12-12T16:19:08.131Z - normal: Check project D:\IT\Gemi\CocosTraining\NinjaMove
+2021-12-12T16:19:08.131Z - normal: Initializing project D:\IT\Gemi\CocosTraining\NinjaMove
+2021-12-12T16:19:08.640Z - normal: Initializing Cocos2d
+2021-12-12T16:19:11.475Z - normal: Initializing engine extends
+2021-12-12T16:19:11.715Z - success: alipay-adapter loaded
+2021-12-12T16:19:11.747Z - success: asset-db-debugger loaded
+2021-12-12T16:19:11.757Z - success: baidu-adapter loaded
+2021-12-12T16:19:11.770Z - success: color-picker loaded
+2021-12-12T16:19:11.959Z - success: fb-audience-network loaded
+2021-12-12T16:19:12.038Z - success: fb-live-stream loaded
+2021-12-12T16:19:12.053Z - success: google-play-instant loaded
+2021-12-12T16:19:12.121Z - success: huawei-runtime loaded
+2021-12-12T16:19:13.205Z - success: cpk-publish loaded
+2021-12-12T16:19:13.205Z - success: jsb-adapter loaded
+2021-12-12T16:19:13.268Z - success: oppo-runtime loaded
+2021-12-12T16:19:13.299Z - success: package-manager loaded
+2021-12-12T16:19:13.690Z - success: qqplay-adapter loaded
+2021-12-12T16:19:13.705Z - success: runtime-dev-tools loaded
+2021-12-12T16:19:13.721Z - success: sdkbox loaded
+2021-12-12T16:19:13.737Z - success: tester loaded
+2021-12-12T16:19:13.752Z - success: ui-kit-preview-extra loaded
+2021-12-12T16:19:13.783Z - success: ui-kit-preview loaded
+2021-12-12T16:19:13.783Z - success: ui-kit loaded
+2021-12-12T16:19:13.846Z - success: vivo-runtime loaded
+2021-12-12T16:19:13.862Z - success: weapp-adapter loaded
+2021-12-12T16:19:13.862Z - success: xiaomi-adapter loaded
+2021-12-12T16:19:13.877Z - success: alipay-minigame loaded
+2021-12-12T16:19:13.940Z - success: assets loaded
+2021-12-12T16:19:13.940Z - success: builder loaded
+2021-12-12T16:19:14.283Z - success: cocos-services loaded
+2021-12-12T16:19:14.283Z - success: console loaded
+2021-12-12T16:19:14.315Z - success: fb-instant-games loaded
+2021-12-12T16:19:14.330Z - success: game-window loaded
+2021-12-12T16:19:14.330Z - success: google-instant-games loaded
+2021-12-12T16:19:14.330Z - success: hierarchy loaded
+2021-12-12T16:19:14.330Z - success: inspector loaded
+2021-12-12T16:19:14.330Z - success: keystore loaded
+2021-12-12T16:19:14.330Z - success: node-library loaded
+2021-12-12T16:19:14.330Z - success: package-asset loaded
+2021-12-12T16:19:14.330Z - success: preferences loaded
+2021-12-12T16:19:14.346Z - success: project-exporter loaded
+2021-12-12T16:19:14.346Z - success: project-importer loaded
+2021-12-12T16:19:14.346Z - success: project-settings loaded
+2021-12-12T16:19:14.346Z - success: scene loaded
+2021-12-12T16:19:14.346Z - success: simulator-debugger loaded
+2021-12-12T16:19:14.346Z - success: sprite-editor loaded
+2021-12-12T16:19:14.346Z - success: store loaded
+2021-12-12T16:19:14.361Z - success: timeline loaded
+2021-12-12T16:19:14.361Z - success: xiaomi-runtime loaded
+2021-12-12T16:19:16.654Z - normal: Loading packages
+2021-12-12T16:19:16.654Z - normal: Watching packages
+2021-12-12T16:19:17.160Z - normal: Run Application
+2021-12-12T16:19:18.024Z - info: Cocos Services load base data!
