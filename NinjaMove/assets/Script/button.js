@@ -11,7 +11,7 @@ const MODE = {
         LEFT: "LEFT_BY_ACTION",
         JUMP: "JUMP_BY_ACTION",
         RESET: "RESET_BY_ACTION"
-    }
+    },
 }
 cc.Class({
     extends: cc.Component,
@@ -29,10 +29,9 @@ cc.Class({
         this._currMode = MODE.MODE_TWEEN;
         this.btnModeStr.string = 'MODE: Tween'
     },
-    start () {
-    },
 
     clickBtn(){
+        cc.log(1)
         if(this._currMode ===  MODE.MODE_TWEEN){
             this._currMode =  MODE.MODE_ACTION;
             this.btnModeStr.string = 'MODE: Action'
@@ -44,45 +43,31 @@ cc.Class({
 
     moveRight(){
         Emitter.instance.emit(this._currMode.RIGHT);
-        this.btnLeft.interactable = false;
-        this.btnJump.interactable = false;
-        this.btnReset.interactable = false;
+        this.btnInteracOff();
         cc.tween(this.node)
             .delay(1)
             .call(()=> {
-                this.btnLeft.interactable = true;
-                this.btnReset.interactable = true;
-                this.btnJump.interactable = true;
+                this.btnInteracOn();
             })
             .start()
     },
     moveLeft(){
         Emitter.instance.emit(this._currMode.LEFT);
-        this.btnRight.interactable = false;
-        this.btnJump.interactable = false;
-        this.btnReset.interactable = false;
+        this.btnInteracOff();
         cc.tween(this.node)
             .delay(1)
             .call(()=> {
-                this.btnRight.interactable = true;
-                this.btnReset.interactable = true;
-                this.btnJump.interactable = true;
+                this.btnInteracOn();
             })
             .start()
     },
     jump() {
         Emitter.instance.emit(this._currMode.JUMP);
-        this.btnJump.interactable = false;
-        this.btnLeft.interactable = false;
-        this.btnRight.interactable = false;
-        this.btnReset.interactable = false;
+        this.btnInteracOff();
         cc.tween(this.node)
             .delay(2)
             .call(()=> {
-                this.btnJump.interactable = true;
-                this.btnLeft.interactable = true;
-                this.btnReset.interactable = true;
-                this.btnRight.interactable = true;
+                this.btnInteracOn();
             })
             .start()
     },
@@ -90,7 +75,17 @@ cc.Class({
         Emitter.instance.emit(this._currMode.RESET)
     },
 
-    changeMode(){
-
+    btnInteracOn(){
+        this.btnJump.interactable = true;
+        this.btnLeft.interactable = true;
+        this.btnReset.interactable = true;
+        this.btnRight.interactable = true;
     },
+
+    btnInteracOff() {
+        this.btnJump.interactable = false;
+        this.btnLeft.interactable = false;
+        this.btnRight.interactable = false;
+        this.btnReset.interactable = false;
+    }
 });

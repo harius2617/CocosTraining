@@ -35,8 +35,8 @@ cc.Class({
         this._currMode = MODE.MODE_TWEEN;
         this.btnModeStr.string = 'MODE: Tween';
     },
-    start: function start() {},
     clickBtn: function clickBtn() {
+        cc.log(1);
         if (this._currMode === MODE.MODE_TWEEN) {
             this._currMode = MODE.MODE_ACTION;
             this.btnModeStr.string = 'MODE: Action';
@@ -49,47 +49,44 @@ cc.Class({
         var _this = this;
 
         Emitter.instance.emit(this._currMode.RIGHT);
-        this.btnLeft.interactable = false;
-        this.btnJump.interactable = false;
-        this.btnReset.interactable = false;
+        this.btnInteracOff();
         cc.tween(this.node).delay(1).call(function () {
-            _this.btnLeft.interactable = true;
-            _this.btnReset.interactable = true;
-            _this.btnJump.interactable = true;
+            _this.btnInteracOn();
         }).start();
     },
     moveLeft: function moveLeft() {
         var _this2 = this;
 
         Emitter.instance.emit(this._currMode.LEFT);
-        this.btnRight.interactable = false;
-        this.btnJump.interactable = false;
-        this.btnReset.interactable = false;
+        this.btnInteracOff();
         cc.tween(this.node).delay(1).call(function () {
-            _this2.btnRight.interactable = true;
-            _this2.btnReset.interactable = true;
-            _this2.btnJump.interactable = true;
+            _this2.btnInteracOn();
         }).start();
     },
     jump: function jump() {
         var _this3 = this;
 
         Emitter.instance.emit(this._currMode.JUMP);
-        this.btnJump.interactable = false;
-        this.btnLeft.interactable = false;
-        this.btnRight.interactable = false;
-        this.btnReset.interactable = false;
+        this.btnInteracOff();
         cc.tween(this.node).delay(2).call(function () {
-            _this3.btnJump.interactable = true;
-            _this3.btnLeft.interactable = true;
-            _this3.btnReset.interactable = true;
-            _this3.btnRight.interactable = true;
+            _this3.btnInteracOn();
         }).start();
     },
     reset: function reset() {
         Emitter.instance.emit(this._currMode.RESET);
     },
-    changeMode: function changeMode() {}
+    btnInteracOn: function btnInteracOn() {
+        this.btnJump.interactable = true;
+        this.btnLeft.interactable = true;
+        this.btnReset.interactable = true;
+        this.btnRight.interactable = true;
+    },
+    btnInteracOff: function btnInteracOff() {
+        this.btnJump.interactable = false;
+        this.btnLeft.interactable = false;
+        this.btnRight.interactable = false;
+        this.btnReset.interactable = false;
+    }
 });
 
 cc._RF.pop();

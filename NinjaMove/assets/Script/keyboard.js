@@ -9,6 +9,7 @@ cc.Class({
         cc.systemEvent.on(cc.SystemEvent.EventType.KEY_DOWN, this.onKeyUp, this);
         cc.systemEvent.on(cc.SystemEvent.EventType.KEY_DOWN, this.onKeyDown, this);
     },
+
     onKeyLeft: function (event) {
         switch (event.keyCode) {
             case cc.macro.KEY.left:
@@ -41,19 +42,15 @@ cc.Class({
     },
     moveRight() {
         Emitter.instance.emit('RIGHT_BY_ACTION');
-        // Emitter.instance.emit('RIGHT_BY_TWEEN');
     },
 
     moveLeft() {
         Emitter.instance.emit('LEFT_BY_ACTION');
-        // Emitter.instance.emit('LEFT_BY_TWEEN');
     },
     jump() {
         Emitter.instance.emit("JUMP_BY_ACTION");
-        // Emitter.instance.emit("JUMP_BY_TWEEN");
     },
     reset() {
         Emitter.instance.emit("RESET_BY_ACTION")
-        // Emitter.instance.emit("RESET_BY_TWEEN")
     }
 });

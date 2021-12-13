@@ -1,68 +1,217 @@
-2021-12-12T17:50:25.838Z - normal: Load ~/.CocosCreator/settings.json
-2021-12-12T17:50:26.950Z - normal: Initializing Asset Database
-2021-12-12T17:50:26.950Z - normal: checking language setting...
-2021-12-12T17:50:26.950Z - normal: Language: en
-2021-12-12T17:50:27.544Z - success: preview server running at http://localhost:7456
-2021-12-12T17:50:27.544Z - success: protocol editor-framework registered
-2021-12-12T17:50:27.544Z - success: protocol app registered
-2021-12-12T17:50:27.544Z - success: protocol theme registered
-2021-12-12T17:50:27.544Z - success: protocol packages registered
-2021-12-12T17:50:27.544Z - success: protocol uuid registerred
-2021-12-12T17:50:27.544Z - success: protocol db registerred
-2021-12-12T17:50:27.544Z - success: protocol thumbnail registerred
-2021-12-12T17:50:27.544Z - success: protocol unpack registerred
-2021-12-12T17:50:27.544Z - success: protocol disable-commonjs registerred
-2021-12-12T17:50:29.210Z - normal: connected!
-2021-12-12T17:50:29.210Z - normal: Check project D:\IT\Gemi\CocosTraining\NinjaMove
-2021-12-12T17:50:29.210Z - normal: Initializing project D:\IT\Gemi\CocosTraining\NinjaMove
-2021-12-12T17:50:29.564Z - normal: Initializing Cocos2d
-2021-12-12T17:50:30.325Z - normal: Initializing engine extends
-2021-12-12T17:50:30.358Z - success: alipay-adapter loaded
-2021-12-12T17:50:30.370Z - success: asset-db-debugger loaded
-2021-12-12T17:50:30.375Z - success: baidu-adapter loaded
-2021-12-12T17:50:30.379Z - success: color-picker loaded
-2021-12-12T17:50:30.507Z - success: fb-audience-network loaded
-2021-12-12T17:50:30.547Z - success: fb-live-stream loaded
-2021-12-12T17:50:30.562Z - success: google-play-instant loaded
-2021-12-12T17:50:30.562Z - success: huawei-runtime loaded
-2021-12-12T17:50:30.757Z - success: cpk-publish loaded
-2021-12-12T17:50:30.757Z - success: jsb-adapter loaded
-2021-12-12T17:50:30.757Z - success: oppo-runtime loaded
-2021-12-12T17:50:30.757Z - success: package-manager loaded
-2021-12-12T17:50:30.851Z - success: qqplay-adapter loaded
-2021-12-12T17:50:30.851Z - success: runtime-dev-tools loaded
-2021-12-12T17:50:30.867Z - success: sdkbox loaded
-2021-12-12T17:50:30.867Z - success: tester loaded
-2021-12-12T17:50:30.867Z - success: ui-kit-preview-extra loaded
-2021-12-12T17:50:30.867Z - success: ui-kit-preview loaded
-2021-12-12T17:50:30.867Z - success: ui-kit loaded
-2021-12-12T17:50:30.867Z - success: vivo-runtime loaded
-2021-12-12T17:50:30.867Z - success: weapp-adapter loaded
-2021-12-12T17:50:30.867Z - success: xiaomi-adapter loaded
-2021-12-12T17:50:30.882Z - success: alipay-minigame loaded
-2021-12-12T17:50:30.914Z - success: assets loaded
-2021-12-12T17:50:30.914Z - success: builder loaded
-2021-12-12T17:50:31.150Z - success: cocos-services loaded
-2021-12-12T17:50:31.150Z - success: console loaded
-2021-12-12T17:50:31.181Z - success: fb-instant-games loaded
-2021-12-12T17:50:31.181Z - success: game-window loaded
-2021-12-12T17:50:31.181Z - success: google-instant-games loaded
-2021-12-12T17:50:31.181Z - success: hierarchy loaded
-2021-12-12T17:50:31.181Z - success: inspector loaded
-2021-12-12T17:50:31.181Z - success: keystore loaded
-2021-12-12T17:50:31.196Z - success: node-library loaded
-2021-12-12T17:50:31.196Z - success: package-asset loaded
-2021-12-12T17:50:31.196Z - success: preferences loaded
-2021-12-12T17:50:31.196Z - success: project-exporter loaded
-2021-12-12T17:50:31.196Z - success: project-importer loaded
-2021-12-12T17:50:31.196Z - success: project-settings loaded
-2021-12-12T17:50:31.212Z - success: scene loaded
-2021-12-12T17:50:31.212Z - success: simulator-debugger loaded
-2021-12-12T17:50:31.212Z - success: sprite-editor loaded
-2021-12-12T17:50:31.212Z - success: store loaded
-2021-12-12T17:50:31.212Z - success: timeline loaded
-2021-12-12T17:50:31.212Z - success: xiaomi-runtime loaded
-2021-12-12T17:50:32.101Z - normal: Loading packages
-2021-12-12T17:50:32.101Z - normal: Watching packages
-2021-12-12T17:50:32.541Z - normal: Run Application
-2021-12-12T17:50:34.719Z - info: Cocos Services load base data!
+2021-12-13T03:15:02.568Z - normal: Load ~/.CocosCreator/settings.json
+2021-12-13T03:15:02.603Z - normal: Initializing Asset Database
+2021-12-13T03:15:02.604Z - normal: checking language setting...
+2021-12-13T03:15:02.604Z - normal: Language: en
+2021-12-13T03:15:03.043Z - success: preview server running at http://localhost:7456
+2021-12-13T03:15:03.054Z - success: protocol editor-framework registered
+2021-12-13T03:15:03.054Z - success: protocol app registered
+2021-12-13T03:15:03.054Z - success: protocol theme registered
+2021-12-13T03:15:03.054Z - success: protocol packages registered
+2021-12-13T03:15:03.055Z - success: protocol uuid registerred
+2021-12-13T03:15:03.055Z - success: protocol db registerred
+2021-12-13T03:15:03.055Z - success: protocol thumbnail registerred
+2021-12-13T03:15:03.055Z - success: protocol unpack registerred
+2021-12-13T03:15:03.055Z - success: protocol disable-commonjs registerred
+2021-12-13T03:15:04.731Z - normal: connected!
+2021-12-13T03:15:04.732Z - normal: Check project /Users/fe-danghai-fresher/Desktop/CocosTraining/NinjaMove
+2021-12-13T03:15:04.734Z - normal: Initializing project /Users/fe-danghai-fresher/Desktop/CocosTraining/NinjaMove
+2021-12-13T03:15:04.977Z - normal: Initializing Cocos2d
+2021-12-13T03:15:05.380Z - normal: Initializing engine extends
+2021-12-13T03:15:05.395Z - success: alipay-adapter loaded
+2021-12-13T03:15:05.400Z - success: asset-db-debugger loaded
+2021-12-13T03:15:05.404Z - success: baidu-adapter loaded
+2021-12-13T03:15:05.407Z - success: color-picker loaded
+2021-12-13T03:15:05.492Z - success: fb-audience-network loaded
+2021-12-13T03:15:05.542Z - success: fb-live-stream loaded
+2021-12-13T03:15:05.545Z - success: google-play-instant loaded
+2021-12-13T03:15:05.548Z - success: huawei-runtime loaded
+2021-12-13T03:15:05.684Z - success: cpk-publish loaded
+2021-12-13T03:15:05.684Z - success: jsb-adapter loaded
+2021-12-13T03:15:05.687Z - success: oppo-runtime loaded
+2021-12-13T03:15:05.690Z - success: package-manager loaded
+2021-12-13T03:15:05.760Z - success: qqplay-adapter loaded
+2021-12-13T03:15:05.761Z - success: runtime-dev-tools loaded
+2021-12-13T03:15:05.764Z - success: sdkbox loaded
+2021-12-13T03:15:05.767Z - success: tester loaded
+2021-12-13T03:15:05.768Z - success: ui-kit-preview-extra loaded
+2021-12-13T03:15:05.770Z - success: ui-kit-preview loaded
+2021-12-13T03:15:05.772Z - success: ui-kit loaded
+2021-12-13T03:15:05.776Z - success: vivo-runtime loaded
+2021-12-13T03:15:05.777Z - success: weapp-adapter loaded
+2021-12-13T03:15:05.778Z - success: xiaomi-adapter loaded
+2021-12-13T03:15:05.779Z - success: alipay-minigame loaded
+2021-12-13T03:15:05.808Z - success: assets loaded
+2021-12-13T03:15:05.810Z - success: builder loaded
+2021-12-13T03:15:05.968Z - success: cocos-services loaded
+2021-12-13T03:15:05.972Z - success: console loaded
+2021-12-13T03:15:05.995Z - success: fb-instant-games loaded
+2021-12-13T03:15:05.998Z - success: game-window loaded
+2021-12-13T03:15:05.999Z - success: google-instant-games loaded
+2021-12-13T03:15:06.002Z - success: hierarchy loaded
+2021-12-13T03:15:06.004Z - success: inspector loaded
+2021-12-13T03:15:06.005Z - success: keystore loaded
+2021-12-13T03:15:06.009Z - success: node-library loaded
+2021-12-13T03:15:06.010Z - success: package-asset loaded
+2021-12-13T03:15:06.011Z - success: preferences loaded
+2021-12-13T03:15:06.012Z - success: project-exporter loaded
+2021-12-13T03:15:06.016Z - success: project-importer loaded
+2021-12-13T03:15:06.018Z - success: project-settings loaded
+2021-12-13T03:15:06.021Z - success: scene loaded
+2021-12-13T03:15:06.022Z - success: simulator-debugger loaded
+2021-12-13T03:15:06.023Z - success: sprite-editor loaded
+2021-12-13T03:15:06.026Z - success: store loaded
+2021-12-13T03:15:06.031Z - success: timeline loaded
+2021-12-13T03:15:06.033Z - success: xiaomi-runtime loaded
+2021-12-13T03:15:09.641Z - normal: Loading packages
+2021-12-13T03:15:09.645Z - normal: Watching packages
+2021-12-13T03:15:09.721Z - normal: Run Application
+2021-12-13T03:15:14.041Z - info: Cocos Services load base data!
+2021-12-13T07:18:31.444Z - failed: load script [/Users/fe-danghai-fresher/Desktop/CocosTraining/NinjaMove/temp/quick-scripts/assets/Script/button.js] failed : TypeError: MODE.load is not a function
+    at __define (/Users/fe-danghai-fresher/Desktop/CocosTraining/NinjaMove/temp/quick-scripts/assets/Script/button.js:91:6)
+    at /Users/fe-danghai-fresher/Desktop/CocosTraining/NinjaMove/temp/quick-scripts/assets/Script/button.js:97:13
+    at Object.<anonymous> (/Users/fe-danghai-fresher/Desktop/CocosTraining/NinjaMove/temp/quick-scripts/assets/Script/button.js:104:11)
+    at Object.<anonymous> (/Users/fe-danghai-fresher/Desktop/CocosTraining/NinjaMove/temp/quick-scripts/assets/Script/button.js:107:3)
+    at Module._compile (module.js:571:32)
+    at Object.Module._extensions..js (module.js:580:10)
+    at Module.load (module.js:488:32)
+    at tryModuleLoad (module.js:447:12)
+    at Function.Module._load (module.js:439:3)
+    at Module.require (module.js:498:17)
+2021-12-13T07:18:31.446Z - error: A Class already exists with the same __classname__ : "button".
+    at /Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/platform/js.js:257:32
+    at Object.js.setClassName (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/platform/js.js:267:17)
+    at doDefine (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/platform/CCClass.js:268:16)
+    at define (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/platform/CCClass.js:284:23)
+    at Object.CCClass [as Class] (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/platform/CCClass.js:651:23)
+    at __define (/Users/fe-danghai-fresher/Desktop/CocosTraining/NinjaMove/temp/quick-scripts/assets/Script/button.js:22:4)
+    at /Users/fe-danghai-fresher/Desktop/CocosTraining/NinjaMove/temp/quick-scripts/assets/Script/button.js:97:13
+    at Object.<anonymous> (/Users/fe-danghai-fresher/Desktop/CocosTraining/NinjaMove/temp/quick-scripts/assets/Script/button.js:104:11)
+    at Object.<anonymous> (/Users/fe-danghai-fresher/Desktop/CocosTraining/NinjaMove/temp/quick-scripts/assets/Script/button.js:107:3)
+2021-12-13T07:18:31.447Z - error: A Class already exists with the same __cid__ : "4c4a83B/ixI8LyQursAZmQH".
+    at Object._setClassId (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/platform/js.js:257:32)
+    at define (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/platform/CCClass.js:289:28)
+    at Object.CCClass [as Class] (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/platform/CCClass.js:651:23)
+    at __define (/Users/fe-danghai-fresher/Desktop/CocosTraining/NinjaMove/temp/quick-scripts/assets/Script/button.js:22:4)
+    at /Users/fe-danghai-fresher/Desktop/CocosTraining/NinjaMove/temp/quick-scripts/assets/Script/button.js:97:13
+    at Object.<anonymous> (/Users/fe-danghai-fresher/Desktop/CocosTraining/NinjaMove/temp/quick-scripts/assets/Script/button.js:104:11)
+    at Object.<anonymous> (/Users/fe-danghai-fresher/Desktop/CocosTraining/NinjaMove/temp/quick-scripts/assets/Script/button.js:107:3)
+    at Module._compile (module.js:571:32)
+    at Object.Module._extensions..js (module.js:580:10)
+2021-12-13T07:18:31.447Z - failed: load script [button] failed : TypeError: MODE.load is not a function
+    at __define (/Users/fe-danghai-fresher/Desktop/CocosTraining/NinjaMove/temp/quick-scripts/assets/Script/button.js:91:6)
+    at /Users/fe-danghai-fresher/Desktop/CocosTraining/NinjaMove/temp/quick-scripts/assets/Script/button.js:97:13
+    at Object.<anonymous> (/Users/fe-danghai-fresher/Desktop/CocosTraining/NinjaMove/temp/quick-scripts/assets/Script/button.js:104:11)
+    at Object.<anonymous> (/Users/fe-danghai-fresher/Desktop/CocosTraining/NinjaMove/temp/quick-scripts/assets/Script/button.js:107:3)
+    at Module._compile (module.js:571:32)
+    at Object.Module._extensions..js (module.js:580:10)
+    at Module.load (module.js:488:32)
+    at tryModuleLoad (module.js:447:12)
+    at Function.Module._load (module.js:439:3)
+    at Module.require (module.js:498:17)
+2021-12-13T07:18:31.448Z - error: Each script can have at most one Component.
+    at Object.cc.errorID (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/CCDebug.js:167:16)
+    at define (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/platform/CCClass.js:276:24)
+    at Object.CCClass [as Class] (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/platform/CCClass.js:651:23)
+    at __define (/Users/fe-danghai-fresher/Desktop/CocosTraining/NinjaMove/temp/quick-scripts/assets/Script/keyboard.js:9:4)
+    at /Users/fe-danghai-fresher/Desktop/CocosTraining/NinjaMove/temp/quick-scripts/assets/Script/keyboard.js:69:13
+    at Object.<anonymous> (/Users/fe-danghai-fresher/Desktop/CocosTraining/NinjaMove/temp/quick-scripts/assets/Script/keyboard.js:76:11)
+    at Object.<anonymous> (/Users/fe-danghai-fresher/Desktop/CocosTraining/NinjaMove/temp/quick-scripts/assets/Script/keyboard.js:79:3)
+    at Module._compile (module.js:571:32)
+    at Object.Module._extensions..js (module.js:580:10)
+2021-12-13T07:18:31.448Z - failed: load script [/Users/fe-danghai-fresher/Desktop/CocosTraining/NinjaMove/temp/quick-scripts/assets/Script/keyboard.js] failed : TypeError: Cannot set property '_sealed' of null
+    at Object.CCClass [as Class] (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/platform/CCClass.js:655:25)
+    at __define (/Users/fe-danghai-fresher/Desktop/CocosTraining/NinjaMove/temp/quick-scripts/assets/Script/keyboard.js:9:4)
+    at /Users/fe-danghai-fresher/Desktop/CocosTraining/NinjaMove/temp/quick-scripts/assets/Script/keyboard.js:69:13
+    at Object.<anonymous> (/Users/fe-danghai-fresher/Desktop/CocosTraining/NinjaMove/temp/quick-scripts/assets/Script/keyboard.js:76:11)
+    at Object.<anonymous> (/Users/fe-danghai-fresher/Desktop/CocosTraining/NinjaMove/temp/quick-scripts/assets/Script/keyboard.js:79:3)
+    at Module._compile (module.js:571:32)
+    at Object.Module._extensions..js (module.js:580:10)
+    at Module.load (module.js:488:32)
+    at tryModuleLoad (module.js:447:12)
+    at Function.Module._load (module.js:439:3)
+2021-12-13T08:49:18.226Z - normal: Start building with options : {
+  "actualPlatform": "web-desktop",
+  "android-instant": {
+    "REMOTE_SERVER_ROOT": "",
+    "host": "",
+    "pathPattern": "",
+    "recordPath": "",
+    "scheme": "https",
+    "skipRecord": false
+  },
+  "apiLevel": "",
+  "appABIs": [],
+  "appBundle": false,
+  "baidugame": {
+    "REMOTE_SERVER_ROOT": "",
+    "appid": "testappid",
+    "orientation": "portrait",
+    "subContext": ""
+  },
+  "buildPath": "/Users/fe-danghai-fresher/Desktop/CocosTraining/NinjaMove/build",
+  "debug": false,
+  "dest": "/Users/fe-danghai-fresher/Desktop/CocosTraining/NinjaMove/build/web-desktop",
+  "embedWebDebugger": false,
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [],
+  "fb-instant-games": {},
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "md5Cache": false,
+  "mergeStartScene": false,
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.helloworld",
+  "platform": "web-desktop",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "qqplay": {
+    "REMOTE_SERVER_ROOT": "",
+    "orientation": "portrait",
+    "zip": false
+  },
+  "scenes": [
+    "a088046a-6d28-4c99-b8ef-710bd811e317"
+  ],
+  "sourceMaps": false,
+  "startScene": "a088046a-6d28-4c99-b8ef-710bd811e317",
+  "template": "link",
+  "title": "Ninja",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "wechatgame": {
+    "REMOTE_SERVER_ROOT": "",
+    "appid": "wx6ac3f5090a6b99c5",
+    "orientation": "portrait",
+    "separate_engine": false,
+    "subContext": ""
+  },
+  "xxteaKey": "c4005459-5804-47",
+  "zipCompressJs": true,
+  "project": "/Users/fe-danghai-fresher/Desktop/CocosTraining/NinjaMove",
+  "projectName": "Ninja",
+  "debugBuildWorker": false
+}
+2021-12-13T08:49:18.229Z - normal: Building /Users/fe-danghai-fresher/Desktop/CocosTraining/NinjaMove
+2021-12-13T08:49:18.229Z - normal: Destination /Users/fe-danghai-fresher/Desktop/CocosTraining/NinjaMove/build/web-desktop
+2021-12-13T08:49:18.350Z - normal: Delete /Users/fe-danghai-fresher/Desktop/CocosTraining/NinjaMove/build/web-desktop/subpackages/**/*,/Users/fe-danghai-fresher/Desktop/CocosTraining/NinjaMove/build/web-desktop/**/*
+2021-12-13T08:49:20.006Z - normal: Start building assets
+2021-12-13T08:49:20.007Z - normal: Start spawn build-worker
+2021-12-13T08:49:20.556Z - normal: Finish spawn build-worker
+2021-12-13T08:49:20.556Z - normal: Start init build-worker
+2021-12-13T08:49:22.662Z - normal: Finish init build-worker
+2021-12-13T08:49:22.662Z - normal: Start build-assets in worker
+2021-12-13T08:49:22.907Z - normal: Finish build-assets in worker
+2021-12-13T08:49:22.909Z - normal: Finish building assets
+2021-12-13T08:49:22.915Z - normal: Start building plugin scripts
+2021-12-13T08:49:22.955Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2021-12-13T08:49:22.963Z - normal: Generating html from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/web-desktop/template/index.html
+2021-12-13T08:49:22.977Z - normal: Built to "/Users/fe-danghai-fresher/Desktop/CocosTraining/NinjaMove/build/web-desktop" successfully
