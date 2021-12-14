@@ -35,19 +35,21 @@ cc.Class({
         action.easing(cc.easeSineIn(6.0));
         this.node.runAction(action);
     },
-    easeOutSine: function easeOutSine() {
+    start: function start() {
         var _this2 = this;
 
-        this.resetBtn();
-        this.spAnim.setAnimation(0, "run", true);
-        var callback = function callback() {
-            _this2.spAnim.setAnimation(0, "idle", true);
-        };
-        var action = cc.sequence(cc.moveBy(4, 450, 0), cc.callFunc(callback));
-        action.easing(cc.easeSineOut(6.0));
-        this.node.runAction(action);
+        // this.spAnim.setCompleteListener((entry) => {
+        //     if(entry.animation.name === 'run'){
+        //         this.spAnim.setAnimation(0, "aim", true);
+        //     }
+        // })
+        this.spAnim.setEventListener(function (entry, event) {
+            var data = event.data;
+
+            var audioID = cc.audioEngine.play(_this2.stepSound, false, 1);
+        });
     },
-    easeInOutSine: function easeInOutSine() {
+    easeOutSine: function easeOutSine() {
         var _this3 = this;
 
         this.resetBtn();
@@ -56,10 +58,10 @@ cc.Class({
             _this3.spAnim.setAnimation(0, "idle", true);
         };
         var action = cc.sequence(cc.moveBy(4, 450, 0), cc.callFunc(callback));
-        action.easing(cc.easeSineInOut(6.0));
+        action.easing(cc.easeSineOut(6.0));
         this.node.runAction(action);
     },
-    easeInQuad: function easeInQuad() {
+    easeInOutSine: function easeInOutSine() {
         var _this4 = this;
 
         this.resetBtn();
@@ -68,10 +70,10 @@ cc.Class({
             _this4.spAnim.setAnimation(0, "idle", true);
         };
         var action = cc.sequence(cc.moveBy(4, 450, 0), cc.callFunc(callback));
-        action.easing(cc.easeQuadraticActionIn(3.0));
+        action.easing(cc.easeSineInOut(6.0));
         this.node.runAction(action);
     },
-    easeOutQuad: function easeOutQuad() {
+    easeInQuad: function easeInQuad() {
         var _this5 = this;
 
         this.resetBtn();
@@ -80,10 +82,10 @@ cc.Class({
             _this5.spAnim.setAnimation(0, "idle", true);
         };
         var action = cc.sequence(cc.moveBy(4, 450, 0), cc.callFunc(callback));
-        action.easing(cc.easeQuadraticActionOut(3.0));
+        action.easing(cc.easeQuadraticActionIn(3.0));
         this.node.runAction(action);
     },
-    easeInOutQuad: function easeInOutQuad() {
+    easeOutQuad: function easeOutQuad() {
         var _this6 = this;
 
         this.resetBtn();
@@ -92,10 +94,10 @@ cc.Class({
             _this6.spAnim.setAnimation(0, "idle", true);
         };
         var action = cc.sequence(cc.moveBy(4, 450, 0), cc.callFunc(callback));
-        action.easing(cc.easeQuadraticActionInOut(3.0));
+        action.easing(cc.easeQuadraticActionOut(3.0));
         this.node.runAction(action);
     },
-    easeInBack: function easeInBack() {
+    easeInOutQuad: function easeInOutQuad() {
         var _this7 = this;
 
         this.resetBtn();
@@ -104,10 +106,10 @@ cc.Class({
             _this7.spAnim.setAnimation(0, "idle", true);
         };
         var action = cc.sequence(cc.moveBy(4, 450, 0), cc.callFunc(callback));
-        action.easing(cc.easeBackIn(3.0));
+        action.easing(cc.easeQuadraticActionInOut(3.0));
         this.node.runAction(action);
     },
-    easeInCubic: function easeInCubic() {
+    easeInBack: function easeInBack() {
         var _this8 = this;
 
         this.resetBtn();
@@ -116,10 +118,10 @@ cc.Class({
             _this8.spAnim.setAnimation(0, "idle", true);
         };
         var action = cc.sequence(cc.moveBy(4, 450, 0), cc.callFunc(callback));
-        action.easing(cc.easeCubicActionIn(3.0));
+        action.easing(cc.easeBackIn(3.0));
         this.node.runAction(action);
     },
-    easeOutCubic: function easeOutCubic() {
+    easeInCubic: function easeInCubic() {
         var _this9 = this;
 
         this.resetBtn();
@@ -128,10 +130,10 @@ cc.Class({
             _this9.spAnim.setAnimation(0, "idle", true);
         };
         var action = cc.sequence(cc.moveBy(4, 450, 0), cc.callFunc(callback));
-        action.easing(cc.easeCubicActionOut(3.0));
+        action.easing(cc.easeCubicActionIn(3.0));
         this.node.runAction(action);
     },
-    easeInOutCubic: function easeInOutCubic() {
+    easeOutCubic: function easeOutCubic() {
         var _this10 = this;
 
         this.resetBtn();
@@ -140,10 +142,10 @@ cc.Class({
             _this10.spAnim.setAnimation(0, "idle", true);
         };
         var action = cc.sequence(cc.moveBy(4, 450, 0), cc.callFunc(callback));
-        action.easing(cc.easeCubicActionInOut(3.0));
+        action.easing(cc.easeCubicActionOut(3.0));
         this.node.runAction(action);
     },
-    easeInQuart: function easeInQuart() {
+    easeInOutCubic: function easeInOutCubic() {
         var _this11 = this;
 
         this.resetBtn();
@@ -152,10 +154,10 @@ cc.Class({
             _this11.spAnim.setAnimation(0, "idle", true);
         };
         var action = cc.sequence(cc.moveBy(4, 450, 0), cc.callFunc(callback));
-        action.easing(cc.easeQuarticActionIn(3.0));
+        action.easing(cc.easeCubicActionInOut(3.0));
         this.node.runAction(action);
     },
-    easeOutQuart: function easeOutQuart() {
+    easeInQuart: function easeInQuart() {
         var _this12 = this;
 
         this.resetBtn();
@@ -164,10 +166,10 @@ cc.Class({
             _this12.spAnim.setAnimation(0, "idle", true);
         };
         var action = cc.sequence(cc.moveBy(4, 450, 0), cc.callFunc(callback));
-        action.easing(cc.easeQuarticActionOut(3.0));
+        action.easing(cc.easeQuarticActionIn(3.0));
         this.node.runAction(action);
     },
-    easeInOutQuart: function easeInOutQuart() {
+    easeOutQuart: function easeOutQuart() {
         var _this13 = this;
 
         this.resetBtn();
@@ -176,10 +178,10 @@ cc.Class({
             _this13.spAnim.setAnimation(0, "idle", true);
         };
         var action = cc.sequence(cc.moveBy(4, 450, 0), cc.callFunc(callback));
-        action.easing(cc.easeQuarticActionInOut(3.0));
+        action.easing(cc.easeQuarticActionOut(3.0));
         this.node.runAction(action);
     },
-    easeInQuint: function easeInQuint() {
+    easeInOutQuart: function easeInOutQuart() {
         var _this14 = this;
 
         this.resetBtn();
@@ -188,10 +190,10 @@ cc.Class({
             _this14.spAnim.setAnimation(0, "idle", true);
         };
         var action = cc.sequence(cc.moveBy(4, 450, 0), cc.callFunc(callback));
-        action.easing(cc.easeQuinticActionIn(3.0));
+        action.easing(cc.easeQuarticActionInOut(3.0));
         this.node.runAction(action);
     },
-    easeOutQuint: function easeOutQuint() {
+    easeInQuint: function easeInQuint() {
         var _this15 = this;
 
         this.resetBtn();
@@ -200,10 +202,10 @@ cc.Class({
             _this15.spAnim.setAnimation(0, "idle", true);
         };
         var action = cc.sequence(cc.moveBy(4, 450, 0), cc.callFunc(callback));
-        action.easing(cc.easeQuinticActionOut(3.0));
+        action.easing(cc.easeQuinticActionIn(3.0));
         this.node.runAction(action);
     },
-    easeInOutQuint: function easeInOutQuint() {
+    easeOutQuint: function easeOutQuint() {
         var _this16 = this;
 
         this.resetBtn();
@@ -212,10 +214,10 @@ cc.Class({
             _this16.spAnim.setAnimation(0, "idle", true);
         };
         var action = cc.sequence(cc.moveBy(4, 450, 0), cc.callFunc(callback));
-        action.easing(cc.easeQuinticActionInOut(3.0));
+        action.easing(cc.easeQuinticActionOut(3.0));
         this.node.runAction(action);
     },
-    easeInExpo: function easeInExpo() {
+    easeInOutQuint: function easeInOutQuint() {
         var _this17 = this;
 
         this.resetBtn();
@@ -224,10 +226,10 @@ cc.Class({
             _this17.spAnim.setAnimation(0, "idle", true);
         };
         var action = cc.sequence(cc.moveBy(4, 450, 0), cc.callFunc(callback));
-        action.easing(cc.easeExponentialIn(3.0));
+        action.easing(cc.easeQuinticActionInOut(3.0));
         this.node.runAction(action);
     },
-    easeOutExpo: function easeOutExpo() {
+    easeInExpo: function easeInExpo() {
         var _this18 = this;
 
         this.resetBtn();
@@ -236,10 +238,10 @@ cc.Class({
             _this18.spAnim.setAnimation(0, "idle", true);
         };
         var action = cc.sequence(cc.moveBy(4, 450, 0), cc.callFunc(callback));
-        action.easing(cc.easeExponentialOut(3.0));
+        action.easing(cc.easeExponentialIn(3.0));
         this.node.runAction(action);
     },
-    easeInOutExpo: function easeInOutExpo() {
+    easeOutExpo: function easeOutExpo() {
         var _this19 = this;
 
         this.resetBtn();
@@ -248,10 +250,10 @@ cc.Class({
             _this19.spAnim.setAnimation(0, "idle", true);
         };
         var action = cc.sequence(cc.moveBy(4, 450, 0), cc.callFunc(callback));
-        action.easing(cc.easeExponentialInOut(3.0));
+        action.easing(cc.easeExponentialOut(3.0));
         this.node.runAction(action);
     },
-    easeInCirc: function easeInCirc() {
+    easeInOutExpo: function easeInOutExpo() {
         var _this20 = this;
 
         this.resetBtn();
@@ -260,10 +262,10 @@ cc.Class({
             _this20.spAnim.setAnimation(0, "idle", true);
         };
         var action = cc.sequence(cc.moveBy(4, 450, 0), cc.callFunc(callback));
-        action.easing(cc.easeCircleActionIn(3.0));
+        action.easing(cc.easeExponentialInOut(3.0));
         this.node.runAction(action);
     },
-    easeOutCirc: function easeOutCirc() {
+    easeInCirc: function easeInCirc() {
         var _this21 = this;
 
         this.resetBtn();
@@ -272,10 +274,10 @@ cc.Class({
             _this21.spAnim.setAnimation(0, "idle", true);
         };
         var action = cc.sequence(cc.moveBy(4, 450, 0), cc.callFunc(callback));
-        action.easing(cc.easeCircleActionOut(3.0));
+        action.easing(cc.easeCircleActionIn(3.0));
         this.node.runAction(action);
     },
-    easeInOutCirc: function easeInOutCirc() {
+    easeOutCirc: function easeOutCirc() {
         var _this22 = this;
 
         this.resetBtn();
@@ -284,10 +286,10 @@ cc.Class({
             _this22.spAnim.setAnimation(0, "idle", true);
         };
         var action = cc.sequence(cc.moveBy(4, 450, 0), cc.callFunc(callback));
-        action.easing(cc.easeCircleActionInOut(3.0));
+        action.easing(cc.easeCircleActionOut(3.0));
         this.node.runAction(action);
     },
-    easeOutBack: function easeOutBack() {
+    easeInOutCirc: function easeInOutCirc() {
         var _this23 = this;
 
         this.resetBtn();
@@ -296,10 +298,10 @@ cc.Class({
             _this23.spAnim.setAnimation(0, "idle", true);
         };
         var action = cc.sequence(cc.moveBy(4, 450, 0), cc.callFunc(callback));
-        action.easing(cc.easeBackOut(3.0));
+        action.easing(cc.easeCircleActionInOut(3.0));
         this.node.runAction(action);
     },
-    easeInOutBack: function easeInOutBack() {
+    easeOutBack: function easeOutBack() {
         var _this24 = this;
 
         this.resetBtn();
@@ -308,10 +310,10 @@ cc.Class({
             _this24.spAnim.setAnimation(0, "idle", true);
         };
         var action = cc.sequence(cc.moveBy(4, 450, 0), cc.callFunc(callback));
-        action.easing(cc.easeBackInOut(3.0));
+        action.easing(cc.easeBackOut(3.0));
         this.node.runAction(action);
     },
-    easeInElastic: function easeInElastic() {
+    easeInOutBack: function easeInOutBack() {
         var _this25 = this;
 
         this.resetBtn();
@@ -320,10 +322,10 @@ cc.Class({
             _this25.spAnim.setAnimation(0, "idle", true);
         };
         var action = cc.sequence(cc.moveBy(4, 450, 0), cc.callFunc(callback));
-        action.easing(cc.easeElasticIn(3.0));
+        action.easing(cc.easeBackInOut(3.0));
         this.node.runAction(action);
     },
-    easeOutElastic: function easeOutElastic() {
+    easeInElastic: function easeInElastic() {
         var _this26 = this;
 
         this.resetBtn();
@@ -332,10 +334,10 @@ cc.Class({
             _this26.spAnim.setAnimation(0, "idle", true);
         };
         var action = cc.sequence(cc.moveBy(4, 450, 0), cc.callFunc(callback));
-        action.easing(cc.easeElasticOut(3.0));
+        action.easing(cc.easeElasticIn(3.0));
         this.node.runAction(action);
     },
-    easeInOutElastic: function easeInOutElastic() {
+    easeOutElastic: function easeOutElastic() {
         var _this27 = this;
 
         this.resetBtn();
@@ -344,10 +346,10 @@ cc.Class({
             _this27.spAnim.setAnimation(0, "idle", true);
         };
         var action = cc.sequence(cc.moveBy(4, 450, 0), cc.callFunc(callback));
-        action.easing(cc.easeElasticInOut(3.0));
+        action.easing(cc.easeElasticOut(3.0));
         this.node.runAction(action);
     },
-    easeInBounce: function easeInBounce() {
+    easeInOutElastic: function easeInOutElastic() {
         var _this28 = this;
 
         this.resetBtn();
@@ -356,10 +358,10 @@ cc.Class({
             _this28.spAnim.setAnimation(0, "idle", true);
         };
         var action = cc.sequence(cc.moveBy(4, 450, 0), cc.callFunc(callback));
-        action.easing(cc.easeBounceIn(3.0));
+        action.easing(cc.easeElasticInOut(3.0));
         this.node.runAction(action);
     },
-    easeOutBounce: function easeOutBounce() {
+    easeInBounce: function easeInBounce() {
         var _this29 = this;
 
         this.resetBtn();
@@ -368,16 +370,28 @@ cc.Class({
             _this29.spAnim.setAnimation(0, "idle", true);
         };
         var action = cc.sequence(cc.moveBy(4, 450, 0), cc.callFunc(callback));
-        action.easing(cc.easeBounceOut(3.0));
+        action.easing(cc.easeBounceIn(3.0));
         this.node.runAction(action);
     },
-    easeInOutBounce: function easeInOutBounce() {
+    easeOutBounce: function easeOutBounce() {
         var _this30 = this;
 
         this.resetBtn();
         this.spAnim.setAnimation(0, "run", true);
         var callback = function callback() {
             _this30.spAnim.setAnimation(0, "idle", true);
+        };
+        var action = cc.sequence(cc.moveBy(4, 450, 0), cc.callFunc(callback));
+        action.easing(cc.easeBounceOut(3.0));
+        this.node.runAction(action);
+    },
+    easeInOutBounce: function easeInOutBounce() {
+        var _this31 = this;
+
+        this.resetBtn();
+        this.spAnim.setAnimation(0, "run", true);
+        var callback = function callback() {
+            _this31.spAnim.setAnimation(0, "idle", true);
         };
         var action = cc.sequence(cc.moveBy(4, 450, 0), cc.callFunc(callback));
         action.easing(cc.easeBounceInOut(3.0));
@@ -391,20 +405,6 @@ cc.Class({
     onLoad: function onLoad() {
         this._firstPos = this.node.position;
         this.spAnim.setAnimation(0, "idle", false);
-    },
-    start: function start() {
-        var _this31 = this;
-
-        // this.spAnim.setCompleteListener((entry) => {
-        //     if(entry.animation.name === 'run'){
-        //         this.spAnim.setAnimation(0, "aim", true);
-        //     }
-        // })
-        this.spAnim.setEventListener(function (entry, event) {
-            var data = event.data;
-
-            var audioID = cc.audioEngine.play(_this31.stepSound, false, 1);
-        });
     }
 }
 

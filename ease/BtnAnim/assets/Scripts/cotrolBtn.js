@@ -10,13 +10,13 @@
 
 cc.Class({
     extends: cc.Component,
-
+    
     properties: {
         _firstPos: null,
         spAnim: sp.Skeleton,
         stepSound: cc.AudioClip,
     },
-
+    
     easeInSineBtn() {
         this.resetBtn();
         this.spAnim.setAnimation(0, "run", true);
@@ -27,7 +27,19 @@ cc.Class({
         action.easing(cc.easeSineIn(6.0));
         this.node.runAction(action);
     },
-
+    
+    start () {
+        // this.spAnim.setCompleteListener((entry) => {
+        //     if(entry.animation.name === 'run'){
+        //         this.spAnim.setAnimation(0, "aim", true);
+        //     }
+        // })
+        this.spAnim.setEventListener((entry, event)=> {
+            const {data} = event;
+            let audioID = cc.audioEngine.play(this.stepSound, false, 1);
+        });
+    },
+    
     easeOutSine(){
         this.resetBtn();
         this.spAnim.setAnimation(0, "run", true);
@@ -354,17 +366,6 @@ cc.Class({
     onLoad () {
         this._firstPos = this.node.position;
         this.spAnim.setAnimation(0, "idle", false);
-    },
-    start () {
-        // this.spAnim.setCompleteListener((entry) => {
-        //     if(entry.animation.name === 'run'){
-        //         this.spAnim.setAnimation(0, "aim", true);
-        //     }
-        // })
-        this.spAnim.setEventListener((entry, event)=> {
-            const {data} = event;
-            let audioID = cc.audioEngine.play(this.stepSound, false, 1);
-        });
     },
 
     // update (dt) {},
