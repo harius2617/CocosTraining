@@ -6,8 +6,8 @@ cc.Class({
         // add key down and key up event
         cc.systemEvent.on(cc.SystemEvent.EventType.KEY_DOWN, this.onKeyLeft, this);
         cc.systemEvent.on(cc.SystemEvent.EventType.KEY_DOWN, this.onKeyRight, this);
-        // cc.systemEvent.on(cc.SystemEvent.EventType.KEY_DOWN, this.onKeyUp, this);
-        // cc.systemEvent.on(cc.SystemEvent.EventType.KEY_DOWN, this.onKeyDown, this);
+        cc.systemEvent.on(cc.SystemEvent.EventType.KEY_DOWN, this.onKeyUp, this);
+        cc.systemEvent.on(cc.SystemEvent.EventType.KEY_DOWN, this.onKeySpace, this);
     },
     onKeyLeft: function (event) {
         switch (event.keyCode) {
@@ -24,22 +24,36 @@ cc.Class({
         }
     },
 
-    // onKeyUp: function(event) {
-    //     switch (event.keyCode) {
-    //         case cc.macro.KEY.up:
-    //             this.jump();
-    //             break;        
-    //     }
-    // },
+    onKeyUp: function(event) {
+        switch (event.keyCode) {
+            case cc.macro.KEY.up:
+                this.jump();
+                break;        
+        }
+    },
+
+    onKeySpace: function(event) {
+        switch (event.keyCode) {
+            case cc.macro.KEY.space:
+                this.shoot();
+                break;
+         }
+    },
 
     moveRight() {
         Emitter.instance.emit('RIGHT');
-        // Emitter.instance.emit('RIGHT_BY_TWEEN');
     },
 
     moveLeft() {
         Emitter.instance.emit('LEFT');
-        // Emitter.instance.emit('LEFT_BY_TWEEN');
     },
+
+    jump(){
+        Emitter.instance.emit('JUMP')
+    },
+
+    shoot() {
+        Emitter.instance.emit('SHOOT')
+    }
 
 });
