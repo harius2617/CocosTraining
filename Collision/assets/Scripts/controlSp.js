@@ -33,46 +33,6 @@ cc.Class({
     },
 
     onCollisionEnter: function (other, self) {
-        // this.isColli = true;
-        // if(other.tag === 0 && self.tag == 0 ) {
-            // this.spAnim.setAnimation(0, "jump", false);
-            // this.spAnim.addAnimation(0, "walk", true)
-            // this.node.y += 100;
-            // cc.tween(this.node)
-            //     .by(0.5, {position: cc.v2(50, 100)})
-            //     .by(0.5, {position: cc.v2(0, -100)})
-            //     .start()
-        //     return
-        // }else if(other.tag === 1) { 
-        //     if(!this.shoot()){
-        //         this.canMove = false
-        //     }else{
-        //         other.node.destroy()
-
-            // }
-            // this.spAnim.setAnimation(0, "shoot", false);
-            // cc.tween(this.node)
-            // .delay(0.5)
-            // .call(()=>{
-            //     this.canMove = true
-                
-            // })
-            // .start()
-            // this.spAnim.addAnimation(0, "walk", true);
-            // this.shoot()
-        // }
-        // cc.log(this.spAnim.animation)
-        // console.log('on collision enter');
-        // if(other.tag === 1 && self.tag === 0 ) {
-        //     // this.canMove = false;
-        //         // other.node.destroy();
-        //         // this.canMove = true;
-        //     this.shoot()
-        //     other.node.destroy()
-        // }
-        // if(other.tag === 0 && self.tag === 3) {
-        //     self.node.destroy()
-        // }
     },
 
     onCollisionStay: function(other, self){
@@ -82,7 +42,6 @@ cc.Class({
     
     onCollisionExit: function (other, self) {
         console.log('on collision exit');
-        // this.spAnim.setAnimation(0, "walk", true)
     },
 
     moveRight() {
