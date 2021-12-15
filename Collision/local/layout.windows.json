@@ -1,12 +1,13 @@
 {
   "version": "1.1.1",
   "windows": {
+    "worker": {},
     "main": {
       "main": true,
       "url": "app://editor/index.html",
       "windowType": "dockable",
       "x": 0,
-      "y": 25,
+      "y": 27,
       "width": 1680,
       "height": 945,
       "layout": {
@@ -88,8 +89,7 @@
         "node-library",
         "scene"
       ]
-    },
-    "window-1639544701480": {}
+    }
   },
   "panels": {
     "project-settings": {
