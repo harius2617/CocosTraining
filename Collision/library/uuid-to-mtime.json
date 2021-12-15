@@ -455,8 +455,8 @@
     "relativePath": "Scripts/objectA.js"
   },
   "5712c7c3-1b38-4079-a742-2a7ead101afc": {
-    "asset": 1639544050475,
-    "meta": 1639544050484,
+    "asset": 1639552317486,
+    "meta": 1639552317492,
     "relativePath": "Scene/SpineBoy.fire"
   },
   "c3adb556-3a58-4a51-92e7-a36436614aad": {
@@ -500,14 +500,9 @@
     "relativePath": "Prefabs"
   },
   "e66ce6b8-28ea-40cf-86d5-957202d0f391": {
-    "asset": 1639541458106,
-    "meta": 1639541458115,
+    "asset": 1639552129052,
+    "meta": 1639552129059,
     "relativePath": "Prefabs/New Sprite.prefab"
-  },
-  "a0043628-807d-4825-8f3c-dd3eb787f2ba": {
-    "asset": 1639544198942,
-    "meta": 1639544204341,
-    "relativePath": "Scripts/controlSp.js"
   },
   "72699070-081f-4c69-8a64-4d7c34b746f5": {
     "asset": 1639544350483,
@@ -518,5 +513,30 @@
     "asset": 1639545027157,
     "meta": 1639545028259,
     "relativePath": "Scripts/keboard.js"
+  },
+  "bea605cf-9d57-4265-91ba-e98c3437fccf": {
+    "asset": 1639550265823,
+    "meta": 1639550307917,
+    "relativePath": "Images/bullet.png"
+  },
+  "e491fd2d-e22d-40a8-9bf4-c9f15d087a52": {
+    "asset": 1639550441484,
+    "meta": 1639550441485,
+    "relativePath": "Audio"
+  },
+  "348ce256-03ad-4974-a954-8a3b02d1ffa3": {
+    "asset": 1639550944784,
+    "meta": 1639550944795,
+    "relativePath": "Audio/footStep.mp3"
+  },
+  "d3b24408-8ff8-4384-a398-900df0b3fce0": {
+    "asset": 1639551507160,
+    "meta": 1639551507172,
+    "relativePath": "Audio/gun.mp3"
+  },
+  "a0043628-807d-4825-8f3c-dd3eb787f2ba": {
+    "asset": 1639552117546,
+    "meta": 1639552119096,
+    "relativePath": "Scripts/controlSp.js"
   }
 }
