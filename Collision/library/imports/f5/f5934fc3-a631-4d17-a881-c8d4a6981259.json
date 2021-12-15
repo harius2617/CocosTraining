@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "ClipartKey_131188",
+    "texture": "c4edae53-b832-4167-b0fc-ed5a83b1b6e8",
+    "atlas": "",
+    "rect": [
+      1,
+      1,
+      714,
+      816
+    ],
+    "offset": [
+      0.5,
+      -0.5
+    ],
+    "originalSize": [
+      715,
+      817
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
